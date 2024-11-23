@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+{{ if not .Params.Ignore_header }}
+{{ partial "page-header.html" . }}
+{{ end }}
+
+<section class="section map">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content">
+          {{.Content | markdownify }}
+        </div>
+        <div class="image-block">
+          <a href="{{ .Params.map_image | absURL }}">
+            <img src="{{ .Params.map_image | absURL }}" class="img-fluid" alt="{{ .Title }}">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

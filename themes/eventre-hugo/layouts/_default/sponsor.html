@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+{{ with site.Data.homepage.sponsors }}
+<section class="sponsors section bg-sponsors overlay-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h3>{{.title | markdownify}}</h3>
+          <p>{{ .content | markdownify}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        {{range .sponsor_group }}
+        <!-- Title -->
+        <div class="sponsor-title text-center">
+          {{ if .link }}
+          <a href="{{ .link | absURL }}">
+            <h5>{{ .name | markdownify }}</h5>
+          </a>
+          {{ else }}
+          <h5>{{ .name | markdownify }}</h5>
+          {{ end }}
+        </div>
+        <div class="block text-center">
+          <!-- Sponsors image list -->
+          <ul class="list-inline sponsors-list">
+            {{ range .sponsor_item }}
+            <li class="list-inline-item">
+              <div class="image-block text-center">
+                <a href="{{ .link | safeURL }}">
+                  <img src="{{ .logo | absURL }}" alt="{{.name}}" class="img-fluid">
+                </a>
+              </div>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+        {{ if .button.enable }}
+        {{ with .button }}
+        <div class="sponsor-btn text-center">
+          <a href="{{ .link | absURL }}" class="btn btn-main-md">{{.label}}</a>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

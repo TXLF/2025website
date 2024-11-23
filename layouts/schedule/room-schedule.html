@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>Texas Linux Fest Schedule</title>
+	{{ $schedule_style := resources.Get "css/schedule.css" }}
+	<link rel="stylesheet" href="{{ $schedule_style.Permalink }}" >
+	<link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+	<link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+    </head>
+    <body>
+	{{ template "partials/room-schedule.html" . }}
+    </body>
+</html>

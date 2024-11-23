@@ -1,0 +1,31 @@
+{{ define "main"}}
+{{ with site.Data.homepage.contact }}
+<section class="section contact-form">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title">
+					<h3>{{.title | markdownify}}</h3>
+					<p>{{.content | markdownify}}</p>
+				</div>
+			</div>
+		</div>
+		<form action="{{site.Params.contact_form_action}}" class="row" id="web-contact-form" method="get" enctype="text/plain">
+			<div class="col-md-6">
+				<input type="text" class="form-control main" name="name" id="name" placeholder="Name">
+			</div>
+			<div class="col-md-6">
+				<input type="email" class="form-control main" name="email" id="email" placeholder="Email">
+			</div>
+			<div class="col-md-12">
+				<textarea name="message" id="message" class="form-control main" rows="10" placeholder="Your Message"></textarea>
+			</div>
+			<div class="col-12 text-center">
+				<button type="submit" class="btn btn-main-md">Send Message</button>
+			</div>
+		</form>
+	</div>
+</section>
+{{ end }}
+
+{{ end }}

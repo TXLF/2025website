@@ -1,0 +1,11 @@
+{
+  "name": "txlf-2025website",
+  "version": "1.1.0",
+  "license": "UNLICENSED",
+  "author": "txlf",
+  "scripts": {
+    "dev": "hugo server --watch",
+    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify"
+  }
+}

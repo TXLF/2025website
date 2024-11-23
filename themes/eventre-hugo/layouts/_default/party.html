@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+{{ if not .Params.Ignore_header }}
+{{ partial "page-header.html" . }}
+{{ end }}
+
+<section class="sponsors section overlay-white party">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="content">
+          {{.Content | markdownify }}
+        </div>
+      </div>
+    </div>
+    {{ with site.Data.homepage.sponsors }}
+    <div class="row">
+      <div class="col-12">
+        {{ range where .sponsor_group ".name" "eq" "After Party Sponsors" }}
+        <!-- Title -->
+        <div class="sponsor-title text-center">
+          <h5>Sponsors</h5>
+        </div>
+        <div class="block text-center">
+          <!-- Sponsors image list -->
+          <ul class="list-inline sponsors-list">
+            {{ range .sponsor_item }}
+            <li class="list-inline-item">
+              <div class="image-block text-center">
+                <a href="{{ .link | safeURL }}">
+                  <img src="{{ .logo | absURL }}" alt="{{.name}}" class="img-fluid">
+                </a>
+              </div>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

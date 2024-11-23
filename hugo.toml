@@ -1,0 +1,317 @@
+######################## default configuration ####################
+baseURL = "https://2025.texaslinuxfest.org/"
+title = "Texas Linux Festival 2025"
+theme = "eventre-hugo"
+# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
+timeZone = "America/Chicago"
+# post pagination
+paginate = 6 # see https://gohugo.io/extras/pagination/
+# post excerpt
+summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
+# google analytics
+# googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+# disqus short name
+disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+# disable language
+disableLanguages = [
+] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
+hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+
+
+############################# Build ##############################
+[build]
+noJSConfigInAssets = false
+useResourceCacheWhen = 'fallback'
+[build.buildStats]
+enable = true
+[[build.cachebusters]]
+source = 'assets/.*\.(js|ts|jsx|tsx)'
+target = '(js|scripts|javascript)'
+[[build.cachebusters]]
+source = 'assets/.*\.(css|sass|scss)$'
+target = '(css|styles|scss|sass)'
+[[build.cachebusters]]
+source = 'assets/.*\.(.*)$'
+target = '$1'
+
+
+############################# Outputs ##############################
+[outputs]
+home = ["HTML"]
+
+############################# Imaging ##############################
+[imaging]
+# See https://github.com/disintegration/imaging
+# Default JPEG or WebP quality setting. Default is 75.
+quality = 90
+resampleFilter = "lanczos"
+
+############################# Caches ###############################
+[caches]
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+
+############################# Markup ###############################
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+attributes = ""
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+attributes = ""
+[[params.plugins.css]]
+link = "plugins/fontawesome/css/all.min.css"
+attributes = ""
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.min.css"
+attributes = ""
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+attributes = ""
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+attributes = ""
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+attributes = ""
+[[params.plugins.js]]
+link = "plugins/mixitup/mixitup.min.js"
+attributes = ""
+[[params.plugins.js]]
+link = "plugins/magnific-popup/magnific-popup.min.js"
+attributes = ""
+[[params.plugins.js]]
+link = "plugins/syotimer/syotimer.min.js"
+attributes = ""
+
+####################### navigation ##########################
+
+# main menu
+#[[menu.main]]
+#name = "Home"
+#url = "/"
+#weight = 1
+
+[[menu.main]]
+name = "About TXLF"
+url = "about/"
+weight = 2
+hasChildren = true
+
+  [[menu.main]]
+  parent = "About TXLF"
+  name = "What is TXLF?"
+  url = "about/"
+  weight = 1
+
+  #[[menu.main]]
+  #parent = "About TXLF"
+  #name = "Speakers"
+  #url = "speakers/"
+  #weight = 2
+
+  [[menu.main]]
+  parent = "About TXLF"
+  name = "Code Of Conduct"
+  url = "code_of_conduct/"
+  weight = 3
+
+  #[[menu.main]]
+  #parent = "About TXLF"
+  #name = "After Party"
+  #url = "party/"
+  #weight = 4
+
+  [[menu.main]]
+  parent = "About TXLF"
+  name = "FAQ"
+  url = "faq/"
+  weight = 5
+
+# uncomment when call for papers is closed
+#[[menu.main]]
+#name = "Speakers"
+#url = "speakers/"
+#weight = 3
+
+[[menu.main]]
+name = "Schedule"
+url = "schedule/"
+weight = 4
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Schedule"
+  name = "List view"
+  url = "/schedule"
+  weight = 10
+
+  [[menu.main]]
+  parent = "Schedule"
+  name = "Grid view - Day 1"
+  url = "/fpg-schedule-day-1"
+  weight = 20
+
+  [[menu.main]]
+  parent = "Schedule"
+  name = "Grid view - Day 2"
+  url = "/fpg-schedule-day-2"
+  weight = 30
+
+[[menu.main]]
+weight = 5
+name = "Get Involved"
+hasChildren = true
+
+  #[[menu.main]]
+  #parent = "Pages"
+  #name = "Gallery"
+  #url = "gallery/"
+
+  [[menu.main]]
+  parent = "Get Involved"
+  name = "Register"
+  url = "pricing/"
+  weight = 10
+
+
+  [[menu.main]]
+  parent = "Get Involved"
+  name = "Sponsorship"
+  url = "sponsorship/"
+  weight = 11
+
+  #[[menu.main]]
+  #parent = "Get Involved"
+  #name = "Sponsors"
+  #url = "sponsors/"
+  #weight = 12
+
+  [[menu.main]]
+  parent = "Get Involved"
+  name = "Volunteering"
+  url = "volunteering/"
+  weight = 13
+
+  #[[menu.main]]
+  #parent = "Pages"
+  #name = "Testimonial"
+  #url = "testimonial/"
+
+[[menu.main]]
+name = "Venue"
+weight = 70
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Venue"
+  name = "Map"
+  url = "map/"
+  weight = 10
+
+  #[[menu.main]]
+  #parent = "Venue"
+  #name = "Location"
+  #url = "https://www.palmereventscenter.com/attend/"
+  #weight = 20
+
+  [[menu.main]]
+  parent = "Venue"
+  name = "Hotels"
+  url = "venue_hotels/"
+  weight = 30
+
+  #[[menu.main]]
+  #parent = "Venue"
+  #name = "Parking"
+  #url = "https://www.palmereventscenter.com/directions-and-parking/"
+  #weight = 40
+
+
+[[menu.main]]
+name = "Contact"
+url = "contact/"
+weight = 80
+
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+logo_footer = "images/footer-logo.png"
+logo_width = "100px"
+# Meta data
+description = "Texas Linux Festival Conference"
+author = "Themefisher"
+# contact form action
+contact_form_action = "mailto:info@texaslinuxfest.org" # contact form works with https://formspree.io
+# copyright
+copyright = "Brought to you by Texas Linux Festival Organizers"
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = true
+label = "Buy Ticket"
+icon = "images/icon/ticket.png"
+link = "pricing/"
+
+# Subscription
+[params.subscription]
+enable = false
+title = "Subscribe to Our Newsletter"
+content = "Subscribe to Our Newsletter"
+# mailchimp subsciption
+#mailchimp_form_action = "....link..." # replace this url with yours
+#mailchimp_form_name = "...." # replace this code with yours
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 30
+
+############################# social site ########################
+# fontawesome 6 https://fontawesome.com/search
+[[params.social]]
+title = "facebook"
+icon = "fa-brands fa-facebook"
+link = "https://www.facebook.com/TexasLinuxFest/"
+
+[[params.social]]
+title = "twitter"
+icon = "fa-brands fa-twitter"
+link = "https://twitter.com/texaslinuxfest"
+
+[[params.social]]
+title = "instagram"
+icon = "fa-brands fa-instagram"
+link = "https://www.instagram.com/explore/tags/texaslinuxfest/"
+
+[[params.social]]
+title = "github"
+icon = "fa-brands fa-github"
+link = "https://github.com/txlf"
+
+[[params.social]]
+title = "linkedin"
+icon = "fa-brands fa-linkedin"
+link = "https://www.linkedin.com/company/texas-linux-fest/"

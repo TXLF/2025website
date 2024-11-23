@@ -1,0 +1,11 @@
+.map{
+	.image-block{
+		background: $light;
+		border: 1px solid $border-color;
+		padding: 10px 20px;
+		img{
+			width: 100%;
+		}
+		margin-top: 40px;
+	}
+}

@@ -1,0 +1,35 @@
+{{ define "main"}}
+
+{{ with site.Data.homepage.faq }}
+<section class="section faq">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title">
+					<h3>{{.title | markdownify}}</h3>
+				</div>
+			</div>
+		</div>
+		<div class="accordion-block">
+			<div class="row" id="accordion">
+				{{ range .questions }}
+				<div class=col-md-6>
+					<div class=card>
+						<div class=card-header id=headingOne>
+							<h5 class=mb-0>
+								<a data-toggle=collapse href=#{{ .ref }}><span class="fa fa-plus-circle"></span>{{ .question }}</a>
+							</h5>
+						</div>
+						<div id={{ .ref }} class=collapse data-parent=#accordion>
+							<div class=card-body>{{ .answer }}</div>
+						</div>
+					</div>
+				</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+
+{{ end }}

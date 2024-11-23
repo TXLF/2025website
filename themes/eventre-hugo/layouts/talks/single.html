@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+<section class="section single-talk">
+  <div class="container">
+    <div class="block">
+      <div class="row">
+        <div class="col-lg-5 col-md-6 align-self-md-start">
+          <div class="image-block">
+            {{ range .Params.speakers }}
+            {{ if .image }}
+            <a href="{{ .link | absURL }}">
+              <img src="{{ .image | absURL }}" class="img-fluid" alt="{{ .Title }}">
+            </a>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-6 align-self-start">
+          <div class="content-block">
+            <div class="name">
+              <h3>{{ .Title }}</h3>
+            </div>
+            {{ if .Params.sponsor }}
+            <div class="sponsor">
+              <p>Sponsored by {{ .Params.sponsor }}</p>
+            </div>
+            {{ end }}
+            <div class="details">
+              {{ .Content }}
+            </div>
+            <div class="format">
+              <h5>Format</h5>
+              <p>{{ .Params.format }}</p>
+            </div>
+            <div class="when">
+              <h5>When</h5>
+              <p>{{ .Params.when }}</p>
+            </div>
+            <div class="where">
+              <h5>Where</h5>
+              <p>{{ .Params.where }}</p>
+            </div>
+            <div class="speakers">
+              <h5>Speaker{{ if gt (len .Params.speakers) 1 }}s{{end}}</h5>
+              <ul class="list-inline">
+                {{ range .Params.speakers }}
+                <li class="list-item">
+                  <a class="btn btn-transparent-md" href="{{ .link | absURL }}">{{ .name }}</a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ if .Params.resources }}
+            <div class="resources">
+              <h5>Resources</h5>
+              <ul class="list-inline">
+                {{ range .Params.resources }}
+                <li class="list-item">
+                  <a class="btn btn-transparent-md" href="{{ .link | absURL }}">{{ .name }}</a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

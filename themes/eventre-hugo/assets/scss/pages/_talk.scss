@@ -1,0 +1,58 @@
+.single-talk{
+	.block{
+		padding-bottom: 70px;
+		border-bottom: 1px solid $border-color;
+		.image-block{
+			margin-top: 0px;
+			background: $light;
+			border: 1px solid $border-color;
+			padding: 6px;
+			img{
+				width: 100%;
+			}
+			@include tablet {
+				margin-bottom: 30px;
+			}
+		}
+		.content-block{
+			.name{
+				h3{
+					font-weight: 400;
+				}
+			}
+			.sponsor{
+				margin-top: 10px;
+				p{
+					color: $primary-color;
+				}
+			}
+			.details{
+				margin-top: 20px;
+				p, ul{
+					font-size: 0.9375rem;
+					&:not(:last-child){
+						margin-bottom: 15px;
+					}
+				}
+				margin-bottom: 45px;
+			}
+			.format, .when, .where{
+				margin-bottom: 20px;
+				p{
+					font-size: 0.9375rem;
+				}
+			}
+			.resources, .speakers{
+				li{
+					padding: 5px 0px;
+				}
+			}
+			.details, .format, .when, .where, .resources, .speakers{
+				h5{
+					font-weight: 400;
+					margin-bottom: 15px;
+				}
+			}
+		}	
+	}
+}

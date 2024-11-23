@@ -1,0 +1,636 @@
+################# Banner ###################
+banner:
+  enable : true
+  heading : "Texas Linux Festival"
+  heading_2 : "Coming in 2025"
+  content : "Austin, TX"
+  timer:
+    enable : false
+    year : 2025
+    month : 10
+    day : 3
+  button:
+    enable : true
+    label : "get tickets now"
+    link : "pricing/"
+
+
+################# About ###################
+about:
+  enable : true
+  title : "About _Texas Linux Festival_"
+  image : "images/about-logo.png"
+  content : "Texas Linux Fest is the first state-wide annual community-run conference for Linux and open source software users and enthusiasts from around the Lone Star State. Much like SCALE in Los Angeles, Ohio Linux Fest in Columbus, and Linux Fest Northwest – and an ever-growing list of successful regional shows – Texas Linux Fest is a weekend event geared towards individual users, rather than an expensive multi-workday expo that might cater primarily to sponsored attendees. Whether you use free software and Linux at home, in your place of business, in your school or non-profit, or you are simply curious, Texas Linux Fest offers something for you.
+  <br><br>
+  Texas Linux Festival is a non-profit (501c) community based organization that is run by volunteers to organize and provide the TXLF conferences. The first official TXLF conference was held in 2010 in Austin, TX."
+  button_solid:
+    enable : true
+    label : "Buy tickets"
+    link : "pricing/"
+  button_outline:
+    enable : true
+    label : "Read more"
+    link : "about/"
+
+
+################# Speaker ###################
+speakers:
+  enable: false
+  cfp_open: false
+  cfp_link: https://www.papercall.io/txlf2025
+  cfp_label: "Submit a talk to our _Call For Papers_"
+  title : "Who is _Speaking?_"
+  title_cfp: "Our _Call for Papers_ is Coming Soon!"
+  content_cfp_topics:
+  - "Linux kernel and system development"
+  - "Open-source software in enterprise environments"
+  - "DevOps and continuous integration/continuous deployment (CI/CD)"
+  - "Cloud computing and virtualization"
+  - "Containerization and orchestration (e.g., Docker, Kubernetes)"
+  - "Internet of Things (IoT), Raspberry Pi’s, and embedded systems"
+  - "Linux gaming and graphics"
+  - "Privacy, security, and encryption"
+  - "Artificial Intelligence (AI) and Machine Learning (ML) on Linux"
+  - "Linux distributions and desktop environments"
+  - "Linux in education and academia"
+  - "Introduction for new users to Linux, OSS Applications or Free Software"
+  content_cfp: "We invite you to be a part of this exceptional event by sharing your expertise and passion with the community. We are seeking engaging and insightful presentations that cover a broad range of topics related to Linux, open-source software, and the wider technology ecosystem. Whether you have hands-on experience, a new research breakthrough, or an inspiring vision for the future of Linux, we want to hear from you!"
+  more_button_text: "Other speakers"
+  more_button_link: "speakers/"
+
+  # speaker items are coming from "content/speakers" folder
+
+###################### Tab ####################
+tab:
+  enable : false
+  title : "Event _Schedule_"
+  content : "The schedule of events is subject to change without prior notifications."
+  tablist:
+  # tab item
+  - name : "Day 1"
+    date : "FIX ME"
+    tablist_items:
+
+    ## 9:00 AM
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 4
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 5
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 6
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 7
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    ## 10:00 AM
+
+    - subject : "TXLF Expo Booths"
+      venue : "FIXME HALL"
+      column: 7
+      time : "10:00 AM - 5:00 PM"
+      start_hour: 10
+      start_minute: 0
+      end_hour: 17
+      end_minute: 0
+
+    # FIXME
+
+    ## 12:00 PM
+
+    - subject : "Lunch"
+      time : "12:00 PM - 1:30 PM"
+      start_hour: 12
+      start_minute: 0
+      end_hour: 13
+      end_minute: 30
+      column: -1
+
+    ## 1:00 PM
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 4
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 5
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 6
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 7
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    ## 2:00 PM
+
+    # FIXME
+
+  # tab item
+  - name : "Day 2"
+    date : "FIX ME"
+    tablist_items:
+
+    ## 9:00 AM
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 4
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 5
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 6
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    - speaker : "FIXME"
+      speaker_image : "images/speakers/fixme-thumb.jpg"
+      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
+      subject: "FIXME"
+      venue : "FIXME ROOM"
+      time : "9:00 AM - 9:50 AM"
+      column: 7
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 50
+
+    ## 10:00 AM
+
+    # FIXME
+
+    ## 5:30 PM
+
+    - subject : "Lightning talks"
+      venue : "FIXME"
+      time : "5:30 PM - 6:00 PM"
+      column: 7
+      start_hour: 17
+      start_minute: 30
+      end_hour: 18
+      end_minute: 0
+
+    ## 6:00 PM
+
+    - subject : "Closing remarks"
+      venue : "FIXME"
+      time : "6:00 PM - 6:15 PM"
+      column: 7
+      start_hour: 18
+      start_minute: 0
+      end_hour: 18
+      end_minute: 15
+
+    ## 8:00 PM
+
+    - subject: "TXLF After Party"
+      talk_link: "party/"
+      venue: "FIXME"
+      time: "8:00 PM - 10:00 PM"
+      column: -1
+      start_hour: 20
+      start_minute: 0
+      end_hour: 22
+      end_minute: 0
+
+############ Registration ####################
+registration:
+  enable : false
+  title : "Register to _Texas Linux Festival 2025_"
+  content : "**Registration for Texas Linux Festival 2025 is now open!**"
+  form_action : "#" # works with formspree.io
+  hide_form: true
+  link : "pricing/"
+  button_text: "Register now!"
+
+  funfacts:
+  - name : "30 Speakers"
+    icon : "fa-microphone"
+
+  - name : "400+ Seats"
+    icon : "fa-flag"
+
+  - name : "400+ tickets"
+    icon : "fa-ticket"
+
+  - name : "2 day event"
+    icon : "fa-calendar"
+
+
+
+
+############ Pricing ####################
+pricing:
+  enable : false
+  title : "Get _Tickets_"
+  content : "Event Pricing for Texas Linux Festival 2025."
+  pricing_table:
+  #- name : "Early Bird Ticket"
+  #  price : "50.00"
+  #  price_per : "Person"
+  #  button_link : "https://register.linuxfests.org/reg6/"
+  #  features:
+  #  - "Full access to the event"
+  #  - "Helps make TXLF possible!"
+
+  - name : "Enthusiast"
+    price : "50.00"
+    price_per : "Person"
+    button_link : "https://register.linuxfests.org/reg6/"
+    features:
+    - "Full access to the event"
+    - "Helps make TXLF possible!"
+
+  - name : "Supporter"
+    price : "100.00"
+    price_per : "Person"
+    button_link : "https://register.linuxfests.org/reg6/"
+    features:
+    - "Full access to the event"
+    - "Helps make TXLF possible!"
+    - "TXLF swag pack"
+
+sponsorship_pricing:
+  enable : false
+  title : "Sponsorship _Prospectus_"
+  content : "Sponsorship pricing for Texas Linux Festival 2025. Help make TXLF possible!"
+  pricing_table:
+  - name: |
+      Diamond <small>(Thanks <a href="/sponsors/fixme">Is this you?</a>!)</small>
+    button_text: "We still have an opening for our Diamond Sponsor!"
+    price : "8000"
+    price_per : "Sponsor"
+    button_link : "sponsors/scinary"
+    description: "The Diamond Sponsorship package provides your organization with top level visibility at the Texas Linux Fest. This exclusive package will demonstrate your organization’s leadership role in the Linux and open-source community."
+    features:
+    - "Two (2) page color ad in the conference program"
+    - "Prominent logo placement on the website"
+    - "Prominent logo placement in signage"
+    # - "30'x10' booth"
+    - "Full day vendor tutorial/workshop slot"
+    - "First logo listing on website"
+    - "First choice of booth location"
+    - "First opportunity to host a conference reception"
+    - "Includes sponsorship of KCD Texas"
+    - "Helps make TXLF possible!"
+
+  - name : "Platinum"
+    price : "6500"
+    price_per : "Sponsor"
+    button_link : "contact/"
+    description: "The Platinum Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
+    features:
+    - "Full page color ad in the conference program"
+    - "Prominent logo placement on the website"
+    - "Prominent logo placement in signage"
+    # - "30'x10' booth"
+    - "Full day vendor tutorial/workshop slot"
+    - "Option for Tote Bag Insert"
+    - "Includes sponsorship of KCD Texas"
+    - "Helps make TXLF possible!"
+
+  - name : "Gold"
+    price : "5000"
+    price_per : "Sponsor"
+    button_link : "contact/"
+    description: "The Gold Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
+    features:
+    - "Half page ad in the conference program"
+    - "Logo placement on the website"
+    # - "20'x10' booth"
+    - "Half day vendor tutorial/workshop slot"
+    - "Option for Tote Bag Insert"
+    - "Includes sponsorship of KCD Texas"
+    - "Helps make TXLF possible!"
+
+  - name : "Silver"
+    price : "2500"
+    price_per : "Sponsor"
+    button_link : "contact/"
+    description: "The Silver Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
+    features:
+    - "Quarter page ad in the conference program"
+    - "Logo placement on the website"
+    # - "10'x10' booth"
+    - "Includes sponsorship of KCD Texas"
+    - "Helps make TXLF possible!"
+
+  - name : "Community Exhibitor"
+    button_text: "I'm interested in being a Community Exhibitor"
+    price : "0"
+    price_per : "Sponsor"
+    button_link : "contact/"
+    description: "This package is only for non-profits and approved community organizations wishing to support Texas Linux Festival. It is expected that all people running the booth would be volunteers. Any fiscal contributions are accepted!"
+    features:
+    - "Logo placement on the website"
+    # - "10'x10' booth"
+
+  - name : "Food & Beverage Sponsorship"
+    button_text: "Sponsor Food & Beverage"
+    price : "Varies"
+    price_per : "Sponsor"
+    button_link : "contact/"
+    description: "During the conference day there are opportunities for coffee, snacks and other food to be served. We’re happy to work with sponsors and the venue to make these times an opportunity to promote a sponsor."
+    features:
+    - "Logo placement on signage related to the food and beverages provided"
+    - "Helps make TXLF possible!"
+
+  - name : "Track Sponsorship"
+    button_text: "Sponsor a Track"
+    price : "1000"
+    price_per : "Sponsor"
+    button_link : "contact/"
+    description: "The Speaker track sponsorships allows you to sponsor one of the presentation rooms at Texas Linux Fest"
+    features:
+    - "Logo placement on signage related to the track"
+    - "Prior to each presentation a short (≤90 seconds) announcement will be read about your organization, products or services"
+
+  - name : "Tote Bag Insert"
+    button_text: "Sponsor a Tote Bag Insert"
+    price : "500"
+    price_per : "Insert"
+    button_link : "contact/"
+    description: "Include a single item in the tote bag received by each attendee. This can also be added to any existing sponsorship for additional tote bag inserts."
+    features:
+    - "Include an item in the tote bag received by all attendees"
+
+
+############### Call to action ############
+call_to_action:
+  enable : true
+  title : "Get Tickets _Now!_"
+  image : "images/speakers/speaker-ticket.png"
+  content : "Register for TXLF2025 today!"
+  button:
+    enable : true
+    label : "Buy tickets"
+    link : "pricing/"
+
+############### Sponsors ##################
+sponsors:
+  enable : false
+  hide_sponsors_on_homepage: true
+  title : "Our _Sponsors_"
+  content : "Our sponsors allow us to continue to provide conferences!"
+  content_hidden_sponsors: "Our sponsors allow us to continue to provide conferences!"
+  button:
+    enable : true
+    label : "Become a sponsor"
+    link : "/sponsorship"
+  sponsor_group:
+  - name: "Diamond sponsor"
+    sponsor_item:
+    - name: "Scinary Cybersecurity"
+      logo: "images/sponsors/diamond-spon-one.png"
+      link : "https://www.scinary.com"
+
+  - name : "Platinum Sponsors"
+    sponsor_item:
+      - name: "Loft"
+        logo: "images/sponsors/loft.svg"
+        link: "https://loft.sh"
+
+  - name : "Gold Sponsors"
+    sponsor_item:
+      - name : "redhat"
+        logo : "images/sponsors/redhat.svg"
+        link: "https://www.redhat.com"
+
+      - name: "elastic"
+        logo: "images/sponsors/elastic.svg"
+        link: "https://www.elastic.co"
+
+      - name: "rocky-linux"
+        logo: "images/sponsors/rocky-linux.png"
+        link: "https://rockylinux.org"
+
+      - name: "rezoomex"
+        logo: "images/sponsors/rezoomex_logo.svg"
+        link: "https://rezoomex.com"
+
+      - name: "Akuity"
+        logo: "images/sponsors/akuity.svg"
+        link: "https://akuity.io"
+
+      - name: "AWS"
+        logo: "images/sponsors/aws.svg"
+        link: "https://aws.amazon.com/opensource/"
+
+  - name : "Silver Sponsors"
+    sponsor_item:
+      - name : "SVA"
+        logo : "images/sponsors/SVASoftware_Logo_4C.png"
+        link: "https://www.svasoftware.com"
+
+      - name: "SigLens"
+        logo: "images/sponsors/siglens.png"
+        link: "https://www.siglens.com"
+
+      - name: "groundcover"
+        logo: "images/sponsors/groundcover.svg"
+        link: "https://www.groundcover.com"
+
+      - name: "Meta"
+        logo: "images/sponsors/meta.png"
+        link: "https://about.meta.com"
+
+      - name: "AlmaLinux"
+        logo: "images/sponsors/almalinux.png"
+        link: "https://almalinux.org"
+
+      - name: "Cosmonic"
+        logo: "images/sponsors/cosmonic.png"
+        link: "https://cosmonic.com/"
+
+  #- name : "Community Sponsors"
+  #  sponsor_item:
+  #  - name : "sponsor"
+  #    logo : "images/sponsors/com-spon-one.png"
+  #    link : "/sponsorship"
+  - name: "Track Sponsors"
+    sponsor_item:
+      - name: "Civo"
+        logo: "images/sponsors/civo.svg"
+        link: "https://www.civo.com"
+
+  - name: "After Party Sponsors"
+    link: "party/"
+    sponsor_item:
+      - name: "Coder"
+        logo: "images/sponsors/coder.png"
+        link: "https://coder.com/"
+
+      - name: "Tailscale"
+        logo: "images/sponsors/tailscale.svg"
+        link: "https://tailscale.com/"
+
+      - name: "Meta"
+        logo: "images/sponsors/meta.png"
+        link: "https://about.meta.com"
+
+      - name: "AWS"
+        logo: "images/sponsors/aws.svg"
+        link: "https://aws.amazon.com/opensource/"
+
+  - name: "Exhibitors"
+    sponsor_item:
+      - name: "Free Software Foundation"
+        logo: "images/sponsors/fsf.png"
+        link: "https://fsf.org"
+
+      - name: "RISC-V"
+        logo: "images/sponsors/risc-v.webp"
+        link: "https://www.meetup.com/austin-area-risc-v-group/"
+
+      - name: "PyTexas"
+        logo: "images/sponsors/pytexas.png"
+        link: "https://www.pytexas.org"
+
+      - name: "Fedora"
+        logo: "images/sponsors/fedora.svg"
+        link: "https://fedoraproject.org"
+
+      - name: "CentOS"
+        logo: "images/sponsors/centos.svg"
+        link: "centos.svg"
+
+  - name: "Media & Swag"
+    sponsor_item:
+      - name: "Jupiter Broadcasting"
+        logo: "images/sponsors/jupiterbroadcasting.png"
+        link: "https://jupiterbroadcasting.com"
+
+      - name: "Kube Events"
+        logo: "images/sponsors/kube-events.svg"
+        link: "https://kube.events"
+
+      - name: "Sticker Mule"
+        logo: "images/sponsors/sticker-mule.svg"
+        link: "https://mule.to/p5mk"
+
+############### FAQ ##################
+faq:
+  title: "Frequently Asked _Questions_"
+  questions:
+  - question : "Any refunds?"
+    ref : "any-refunds"
+    answer: "Reach out to info@texaslinuxfest.org if you would like a refund for a purchased ticket. Up to 60 days from the event, we are able to offer a full cash refund. From 59 days to 3 days out, we can transfer your ticket to another attendee. 72 hours or less from the event, no refunds or cancelations are possible."
+
+  - question : "Covid 2020 Cancellation Ticket Redemption"
+    ref : "covid-2020-cancellation-ticket-redemption"
+    answer : "If you purchased a ticket during our planned 2020 Texas Linux Festival that was cancelled due to COVID health concerns.  If you'd like to redeem this for the 2025 event, reach out to info@texaslinuxfest.org for registration if you did not receive a coupon code by email. Please provide your receipt.If you'd like a refund instead, reach out to info@texaslinuxfest.org and provide your receipt."
+
+############ Contact ####################
+contact:
+  title : "Get in _Touch_"
+  content : "Contact the organizers."

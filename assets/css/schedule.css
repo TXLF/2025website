@@ -1,0 +1,59 @@
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+.grid-schedule {
+    display: grid;
+    grid-template-columns: 1fr repeat(6, 3fr);
+    grid-template-rows: 50px repeat(156, 10px);
+    border: solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.grid-schedule-day {
+    display: grid;
+    grid-template-columns: 1fr 18fr;
+    grid-template-rows: 50px repeat(120, 10px);
+    border: solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hour {
+    grid-column: 1/8;
+    border-top-color: grey;
+    border-top-style: dotted;
+    border-top-width: 1px;
+}
+
+.grid-schedule header, .grid-schedule-day header {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.schedule-entry {
+    background-color: orange;
+    border: solid;
+    display: block;
+    overflow: auto;
+}
+
+#time-header {
+    margin: 0;
+    grid-column: 1;
+    grid-row: 1/156;
+    border-right-color: grey;
+    border-right-style: dotted;
+    border-right-width: 1px;
+}
+
+.speaker-name {
+    font-weight: bold;
+}
+
+.talk-subject {
+    font-style: italic;
+}
