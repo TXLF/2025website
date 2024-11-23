@@ -11,8 +11,11 @@ banner:
     day : 3
   button:
     enable : true
-    label : "get tickets now"
-    link : "pricing/"
+    # label : "get tickets now"
+    # link : "pricing/"
+    # @ilan - fix this link for a signup page for info
+    label: "sign up for updates!"
+    link: "https://register.linuxfests.org/reg6/"
 
 
 ################# About ###################
