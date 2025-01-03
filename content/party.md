@@ -10,7 +10,7 @@ ignore_header: true
 
 We are working to update this as we finalize the location for TXLF2025.
 
-Join us on TBD, for the Texas Linux Fest After Party!
+Join us on Oct 4, 2025, for the Texas Linux Fest After Party!
 It will be hosted at TBD,
 located at TBD.
 Our group reservation is from 8:00 PM to 10:00 PM,

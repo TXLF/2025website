@@ -14,4 +14,4 @@ ignore_header: true
 There are several hotel options available to attendees of Texas Linux Fest.
 <br/><br/>
 
-We are working to update this as we finalize the location for TXLF2025.
+<a href="https://commons.utexas.edu/meetings-and-events/area-hotels">Here is a list of recommended hotels by the Commons Conference Center</a>
