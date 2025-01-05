@@ -365,7 +365,7 @@ pricing:
   #  - "TXLF swag pack"
 
 sponsorship_pricing:
-  enable : true
+  enable : false
   title : "Sponsorship _Prospectus_"
   content : "Sponsorship pricing for Texas Linux Festival 2025. Help make TXLF possible!"
   pricing_table:
