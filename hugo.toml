@@ -224,11 +224,11 @@ hasChildren = true
   url = "map/"
   weight = 10
 
-  #[[menu.main]]
-  #parent = "Venue"
-  #name = "Location"
-  #url = "https://www.palmereventscenter.com/attend/"
-  #weight = 20
+  [[menu.main]]
+  parent = "Venue"
+  name = "Location"
+  url = "https://commons.utexas.edu/"
+  weight = 20
 
   [[menu.main]]
   parent = "Venue"
@@ -236,11 +236,11 @@ hasChildren = true
   url = "venue_hotels/"
   weight = 30
 
-  #[[menu.main]]
-  #parent = "Venue"
-  #name = "Parking"
-  #url = "https://www.palmereventscenter.com/directions-and-parking/"
-  #weight = 40
+  [[menu.main]]
+  parent = "Venue"
+  name = "Parking"
+  url = "https://commons.utexas.edu/about-us/location-information#parking"
+  weight = 40
 
 
 [[menu.main]]

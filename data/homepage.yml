@@ -2,19 +2,19 @@
 banner:
   enable : true
   heading : "Texas Linux Festival"
-  heading_2 : "Coming in 2025"
+  heading_2 : "Oct 3-4, 2025"
   content : "Austin, TX"
   timer:
-    enable : false
+    enable : true
     year : 2025
     month : 10
     day : 3
   button:
     enable : true
-    # label : "get tickets now"
+    label : "get tickets now"
     # link : "pricing/"
     # @ilan - fix this link for a signup page for info
-    label: "sign up for updates!"
+    # label: "sign up for updates!"
     link: "https://register.linuxfests.org/reg6/"
 
 
@@ -308,7 +308,7 @@ tab:
 
 ############ Registration ####################
 registration:
-  enable : false
+  enable : true
   title : "Register to _Texas Linux Festival 2025_"
   content : "**Registration for Texas Linux Festival 2025 is now open!**"
   form_action : "#" # works with formspree.io
@@ -320,10 +320,10 @@ registration:
   - name : "30 Speakers"
     icon : "fa-microphone"
 
-  - name : "400+ Seats"
+  - name : "500+ Seats"
     icon : "fa-flag"
 
-  - name : "400+ tickets"
+  - name : "500+ tickets"
     icon : "fa-ticket"
 
   - name : "2 day event"
@@ -334,11 +334,20 @@ registration:
 
 ############ Pricing ####################
 pricing:
-  enable : false
+  enable : true
   title : "Get _Tickets_"
   content : "Event Pricing for Texas Linux Festival 2025."
   pricing_table:
-  #- name : "Early Bird Ticket"
+  - name: "Early Bird Ticket"
+    price: "50.00"
+    price_per: "Person"
+    button_link: "https://register.linuxfests.org/reg6/"
+    features:
+    - "Full access to the event"
+    - "Helps make TXLF possible!"
+    - "TXLF swag pack"
+
+  #- name : "Enthusiast"
   #  price : "50.00"
   #  price_per : "Person"
   #  button_link : "https://register.linuxfests.org/reg6/"
@@ -346,22 +355,14 @@ pricing:
   #  - "Full access to the event"
   #  - "Helps make TXLF possible!"
 
-  - name : "Enthusiast"
-    price : "50.00"
-    price_per : "Person"
-    button_link : "https://register.linuxfests.org/reg6/"
-    features:
-    - "Full access to the event"
-    - "Helps make TXLF possible!"
-
-  - name : "Supporter"
-    price : "100.00"
-    price_per : "Person"
-    button_link : "https://register.linuxfests.org/reg6/"
-    features:
-    - "Full access to the event"
-    - "Helps make TXLF possible!"
-    - "TXLF swag pack"
+  #- name : "Supporter"
+  #  price : "100.00"
+  #  price_per : "Person"
+  #  button_link : "https://register.linuxfests.org/reg6/"
+  #  features:
+  #  - "Full access to the event"
+  #  - "Helps make TXLF possible!"
+  #  - "TXLF swag pack"
 
 sponsorship_pricing:
   enable : false
