@@ -21,11 +21,34 @@
           {{with .heading_2}}<h2>{{ . | markdownify }}</h2>{{end}}
           <h6>{{ .content | markdownify }}</h6>
           <!-- Action Button -->
+          <div style="display: flex; width: 100%; justify-content: left; align-items: center; gap: 4em;">
           {{ if .button.enable }}
           {{ with .button }}
           <a href="{{ .link | absURL }}" class="btn btn-white-md">{{ .label }}</a>
           {{ end }}
           {{ end }}
+
+          {{ if .subscribe.enable }}
+          {{ with .subscribe }}
+
+          <form method="post" action="https://listmonk.linuxfests.org/subscription/form" class="listmonk-form">
+            <div style="display: flex; flex-direction: row; gap: 0.1em;">
+              <input type="hidden" name="nonce" />
+
+              <p><input type="email" name="email" required placeholder="E-mail" /></p>
+              <p><input type="hidden" name="name" placeholder="Name (optional)" /></p>
+
+              <p>
+                <input id="9cdc2" type="hidden" name="l" checked value="{{ .listmonk_form_id }}" />
+              </p>
+
+              <input type="submit" value="{{ .label | markdownify }}" />
+            </div>
+          </form>
+
+          {{ end }}
+          {{ end }}
+          </div>
         </div>
       </div>
     </div>
