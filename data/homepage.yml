@@ -16,6 +16,10 @@ banner:
     # @ilan - fix this link for a signup page for info
     # label: "sign up for updates!"
     link: "https://register.linuxfests.org/reg6/"
+  subscribe:
+    enable : true
+    label: "Subscribe to get updates!"
+    listmonk_form_id: 9cdc23bf-cb55-4afc-ae39-e55dc7badc5b
 
 
 ################# About ###################
@@ -23,9 +27,10 @@ about:
   enable : true
   title : "About _Texas Linux Festival_"
   image : "images/about-logo.png"
-  content : "Texas Linux Fest is the first state-wide annual community-run conference for Linux and open source software users and enthusiasts from around the Lone Star State. Much like SCALE in Los Angeles, Ohio Linux Fest in Columbus, and Linux Fest Northwest – and an ever-growing list of successful regional shows – Texas Linux Fest is a weekend event geared towards individual users, rather than an expensive multi-workday expo that might cater primarily to sponsored attendees. Whether you use free software and Linux at home, in your place of business, in your school or non-profit, or you are simply curious, Texas Linux Fest offers something for you.
-  <br><br>
-  Texas Linux Festival is a non-profit (501c) community based organization that is run by volunteers to organize and provide the TXLF conferences. The first official TXLF conference was held in 2010 in Austin, TX."
+  content : |
+    Texas Linux Fest is the first state-wide annual community-run conference for Linux and open source software users and enthusiasts from around the Lone Star State. Much like SCALE in Los Angeles, Ohio Linux Fest in Columbus, and Linux Fest Northwest – and an ever-growing list of successful regional shows – Texas Linux Fest is a weekend event geared towards individual users, rather than an expensive multi-workday expo that might cater primarily to sponsored attendees. Whether you use free software and Linux at home, in your place of business, in your school or non-profit, or you are simply curious, Texas Linux Fest offers something for you.
+    <br><br>
+    Texas Linux Festival is a non-profit (501c) community based organization that is run by volunteers to organize and provide the TXLF conferences. The first official TXLF conference was held in 2010 in Austin, TX.
   button_solid:
     enable : true
     label : "Buy tickets"
