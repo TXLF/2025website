@@ -352,14 +352,6 @@ pricing:
     - "Helps make TXLF possible!"
     - "TXLF swag pack"
 
-  #- name : "Enthusiast"
-  #  price : "50.00"
-  #  price_per : "Person"
-  #  button_link : "https://register.linuxfests.org/reg6/"
-  #  features:
-  #  - "Full access to the event"
-  #  - "Helps make TXLF possible!"
-
   #- name : "Supporter"
   #  price : "100.00"
   #  price_per : "Person"
@@ -368,29 +360,38 @@ pricing:
   #  - "Full access to the event"
   #  - "Helps make TXLF possible!"
   #  - "TXLF swag pack"
+  
+  #- name : "Enthusiast"
+  #  price : "50.00"
+  #  price_per : "Person"
+  #  button_link : "https://register.linuxfests.org/reg6/"
+  #  features:
+  #  - "Full access to the event"
+  #  - "Helps make TXLF possible!"
+  #  - "Allows students, hobbyists, retired, unemployed, etc. to access this community resource. If you're attending professionally, please consider the 'Supporter' level."
+  #  - "Does not include the swag pack"
+
 
 sponsorship_pricing:
-  enable : false
+  enable : true
   title : "Sponsorship _Prospectus_"
   content : "Sponsorship pricing for Texas Linux Festival 2025. Help make TXLF possible!"
   pricing_table:
   - name: |
-      Diamond <small>(Thanks <a href="/sponsors/fixme">Is this you?</a>!)</small>
+      Diamond
     button_text: "We still have an opening for our Diamond Sponsor!"
     price : "8000"
     price_per : "Sponsor"
-    button_link : "sponsors/scinary"
+    button_link : "contact/"
     description: "The Diamond Sponsorship package provides your organization with top level visibility at the Texas Linux Fest. This exclusive package will demonstrate your organization’s leadership role in the Linux and open-source community."
     features:
-    - "Two (2) page color ad in the conference program"
     - "Prominent logo placement on the website"
     - "Prominent logo placement in signage"
-    # - "30'x10' booth"
+    - "3 table-length booth in the expo hall"
     - "Full day vendor tutorial/workshop slot"
     - "First logo listing on website"
     - "First choice of booth location"
     - "First opportunity to host a conference reception"
-    - "Includes sponsorship of KCD Texas"
     - "Helps make TXLF possible!"
 
   - name : "Platinum"
@@ -399,13 +400,11 @@ sponsorship_pricing:
     button_link : "contact/"
     description: "The Platinum Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
     features:
-    - "Full page color ad in the conference program"
     - "Prominent logo placement on the website"
     - "Prominent logo placement in signage"
-    # - "30'x10' booth"
+    - "3 table-length booth in the expo hall"
     - "Full day vendor tutorial/workshop slot"
     - "Option for Tote Bag Insert"
-    - "Includes sponsorship of KCD Texas"
     - "Helps make TXLF possible!"
 
   - name : "Gold"
@@ -414,12 +413,10 @@ sponsorship_pricing:
     button_link : "contact/"
     description: "The Gold Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
     features:
-    - "Half page ad in the conference program"
     - "Logo placement on the website"
-    # - "20'x10' booth"
+    - "2 table-length booth in the expo hall"
     - "Half day vendor tutorial/workshop slot"
     - "Option for Tote Bag Insert"
-    - "Includes sponsorship of KCD Texas"
     - "Helps make TXLF possible!"
 
   - name : "Silver"
@@ -428,9 +425,8 @@ sponsorship_pricing:
     button_link : "contact/"
     description: "The Silver Sponsorship package allows your organization to participate in high profile marketing opportunities at the Texas Linux Fest."
     features:
-    - "Quarter page ad in the conference program"
     - "Logo placement on the website"
-    # - "10'x10' booth"
+    - "Booth in the expo hall"
     - "Includes sponsorship of KCD Texas"
     - "Helps make TXLF possible!"
 
@@ -442,37 +438,7 @@ sponsorship_pricing:
     description: "This package is only for non-profits and approved community organizations wishing to support Texas Linux Festival. It is expected that all people running the booth would be volunteers. Any fiscal contributions are accepted!"
     features:
     - "Logo placement on the website"
-    # - "10'x10' booth"
-
-  - name : "Food & Beverage Sponsorship"
-    button_text: "Sponsor Food & Beverage"
-    price : "Varies"
-    price_per : "Sponsor"
-    button_link : "contact/"
-    description: "During the conference day there are opportunities for coffee, snacks and other food to be served. We’re happy to work with sponsors and the venue to make these times an opportunity to promote a sponsor."
-    features:
-    - "Logo placement on signage related to the food and beverages provided"
-    - "Helps make TXLF possible!"
-
-  - name : "Track Sponsorship"
-    button_text: "Sponsor a Track"
-    price : "1000"
-    price_per : "Sponsor"
-    button_link : "contact/"
-    description: "The Speaker track sponsorships allows you to sponsor one of the presentation rooms at Texas Linux Fest"
-    features:
-    - "Logo placement on signage related to the track"
-    - "Prior to each presentation a short (≤90 seconds) announcement will be read about your organization, products or services"
-
-  - name : "Tote Bag Insert"
-    button_text: "Sponsor a Tote Bag Insert"
-    price : "500"
-    price_per : "Insert"
-    button_link : "contact/"
-    description: "Include a single item in the tote bag received by each attendee. This can also be added to any existing sponsorship for additional tote bag inserts."
-    features:
-    - "Include an item in the tote bag received by all attendees"
-
+    - "Booth in the expo hall"
 
 ############### Call to action ############
 call_to_action:
