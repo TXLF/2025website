@@ -27,7 +27,7 @@ defaults:
 
 # Environment variables available to all jobs and steps in this workflow
 env:
-  NODE_VERSION: "22.11.0"
+  NODE_VERSION: "22.14.0"
   TINA_CLIENT_ID: ${{ vars.TINA_CLIENT_ID }}
   TINA_TOKEN: ${{ vars.TINA_TOKEN }}
 
@@ -36,7 +36,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.139.0
+      HUGO_VERSION: 0.144.0
     steps:
       - name: Install Hugo CLI
         run: |
