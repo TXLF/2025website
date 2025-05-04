@@ -454,8 +454,8 @@ call_to_action:
 
 ############### Sponsors ##################
 sponsors:
-  enable : false
-  hide_sponsors_on_homepage: true
+  enable : true
+  hide_sponsors_on_homepage: false
   title : "Our _Sponsors_"
   content : "Our sponsors allow us to continue to provide conferences!"
   content_hidden_sponsors: "Our sponsors allow us to continue to provide conferences!"
@@ -464,135 +464,135 @@ sponsors:
     label : "Become a sponsor"
     link : "/sponsorship"
   sponsor_group:
-  - name: "Diamond sponsor"
-    sponsor_item:
-    - name: "Scinary Cybersecurity"
-      logo: "images/sponsors/diamond-spon-one.png"
-      link : "https://www.scinary.com"
+  #- name: "Diamond sponsor"
+  #  sponsor_item:
+  #  - name: "Scinary Cybersecurity"
+  #    logo: "images/sponsors/diamond-spon-one.png"
+  #    link : "https://www.scinary.com"
 
   - name : "Platinum Sponsors"
     sponsor_item:
-      - name: "Loft"
-        logo: "images/sponsors/loft.svg"
-        link: "https://loft.sh"
+      - name: "Rackspace"
+        logo: "images/sponsors/rackspace.png"
+        link: "https://www.rackspace.com"
 
-  - name : "Gold Sponsors"
-    sponsor_item:
-      - name : "redhat"
-        logo : "images/sponsors/redhat.svg"
-        link: "https://www.redhat.com"
-
-      - name: "elastic"
-        logo: "images/sponsors/elastic.svg"
-        link: "https://www.elastic.co"
-
-      - name: "rocky-linux"
-        logo: "images/sponsors/rocky-linux.png"
-        link: "https://rockylinux.org"
-
-      - name: "rezoomex"
-        logo: "images/sponsors/rezoomex_logo.svg"
-        link: "https://rezoomex.com"
-
-      - name: "Akuity"
-        logo: "images/sponsors/akuity.svg"
-        link: "https://akuity.io"
-
-      - name: "AWS"
-        logo: "images/sponsors/aws.svg"
-        link: "https://aws.amazon.com/opensource/"
-
-  - name : "Silver Sponsors"
-    sponsor_item:
-      - name : "SVA"
-        logo : "images/sponsors/SVASoftware_Logo_4C.png"
-        link: "https://www.svasoftware.com"
-
-      - name: "SigLens"
-        logo: "images/sponsors/siglens.png"
-        link: "https://www.siglens.com"
-
-      - name: "groundcover"
-        logo: "images/sponsors/groundcover.svg"
-        link: "https://www.groundcover.com"
-
-      - name: "Meta"
-        logo: "images/sponsors/meta.png"
-        link: "https://about.meta.com"
-
-      - name: "AlmaLinux"
-        logo: "images/sponsors/almalinux.png"
-        link: "https://almalinux.org"
-
-      - name: "Cosmonic"
-        logo: "images/sponsors/cosmonic.png"
-        link: "https://cosmonic.com/"
-
+  #- name : "Gold Sponsors"
+  #  sponsor_item:
+  #    - name : "redhat"
+  #      logo : "images/sponsors/redhat.svg"
+  #      link: "https://www.redhat.com"
+  #
+  #      - name: "elastic"
+  #        logo: "images/sponsors/elastic.svg"
+  #        link: "https://www.elastic.co"
+  #
+  #      - name: "rocky-linux"
+  #        logo: "images/sponsors/rocky-linux.png"
+  #        link: "https://rockylinux.org"
+  #
+  #    - name: "rezoomex"
+  #      logo: "images/sponsors/rezoomex_logo.svg"
+  #      link: "https://rezoomex.com"
+  #
+  #    - name: "Akuity"
+  #      logo: "images/sponsors/akuity.svg"
+  #      link: "https://akuity.io"
+  #
+  #    - name: "AWS"
+  #      logo: "images/sponsors/aws.svg"
+  #      link: "https://aws.amazon.com/opensource/"
+  #
+  #- name : "Silver Sponsors"
+  #  sponsor_item:
+  #    - name : "SVA"
+  #      logo : "images/sponsors/SVASoftware_Logo_4C.png"
+  #      link: "https://www.svasoftware.com"
+  #
+  #    - name: "SigLens"
+  #      logo: "images/sponsors/siglens.png"
+  #      link: "https://www.siglens.com"
+  #
+  #    - name: "groundcover"
+  #      logo: "images/sponsors/groundcover.svg"
+  #      link: "https://www.groundcover.com"
+  #
+  #    - name: "Meta"
+  #      logo: "images/sponsors/meta.png"
+  #      link: "https://about.meta.com"
+  #
+  #    - name: "AlmaLinux"
+  #      logo: "images/sponsors/almalinux.png"
+  #      link: "https://almalinux.org"
+  #
+  #    - name: "Cosmonic"
+  #      logo: "images/sponsors/cosmonic.png"
+  #      link: "https://cosmonic.com/"
+  #
   #- name : "Community Sponsors"
   #  sponsor_item:
   #  - name : "sponsor"
   #    logo : "images/sponsors/com-spon-one.png"
   #    link : "/sponsorship"
-  - name: "Track Sponsors"
-    sponsor_item:
-      - name: "Civo"
-        logo: "images/sponsors/civo.svg"
-        link: "https://www.civo.com"
-
-  - name: "After Party Sponsors"
-    link: "party/"
-    sponsor_item:
-      - name: "Coder"
-        logo: "images/sponsors/coder.png"
-        link: "https://coder.com/"
-
-      - name: "Tailscale"
-        logo: "images/sponsors/tailscale.svg"
-        link: "https://tailscale.com/"
-
-      - name: "Meta"
-        logo: "images/sponsors/meta.png"
-        link: "https://about.meta.com"
-
-      - name: "AWS"
-        logo: "images/sponsors/aws.svg"
-        link: "https://aws.amazon.com/opensource/"
-
-  - name: "Exhibitors"
-    sponsor_item:
-      - name: "Free Software Foundation"
-        logo: "images/sponsors/fsf.png"
-        link: "https://fsf.org"
-
-      - name: "RISC-V"
-        logo: "images/sponsors/risc-v.webp"
-        link: "https://www.meetup.com/austin-area-risc-v-group/"
-
-      - name: "PyTexas"
-        logo: "images/sponsors/pytexas.png"
-        link: "https://www.pytexas.org"
-
-      - name: "Fedora"
-        logo: "images/sponsors/fedora.svg"
-        link: "https://fedoraproject.org"
-
-      - name: "CentOS"
-        logo: "images/sponsors/centos.svg"
-        link: "centos.svg"
-
-  - name: "Media & Swag"
-    sponsor_item:
-      - name: "Jupiter Broadcasting"
-        logo: "images/sponsors/jupiterbroadcasting.png"
-        link: "https://jupiterbroadcasting.com"
-
-      - name: "Kube Events"
-        logo: "images/sponsors/kube-events.svg"
-        link: "https://kube.events"
-
-      - name: "Sticker Mule"
-        logo: "images/sponsors/sticker-mule.svg"
-        link: "https://mule.to/p5mk"
+  #- name: "Track Sponsors"
+  #  sponsor_item:
+  #    - name: "Civo"
+  #      logo: "images/sponsors/civo.svg"
+  #      link: "https://www.civo.com"
+  #
+  #- name: "After Party Sponsors"
+  #  link: "party/"
+  #  sponsor_item:
+  #    - name: "Coder"
+  #      logo: "images/sponsors/coder.png"
+  #      link: "https://coder.com/"
+  #
+  #    - name: "Tailscale"
+  #      logo: "images/sponsors/tailscale.svg"
+  #      link: "https://tailscale.com/"
+  #
+  #    - name: "Meta"
+  #      logo: "images/sponsors/meta.png"
+  #      link: "https://about.meta.com"
+  #
+  #    - name: "AWS"
+  #      logo: "images/sponsors/aws.svg"
+  #      link: "https://aws.amazon.com/opensource/"
+  #
+  #- name: "Exhibitors"
+  #  sponsor_item:
+  #    - name: "Free Software Foundation"
+  #      logo: "images/sponsors/fsf.png"
+  #      link: "https://fsf.org"
+  #
+  #    - name: "RISC-V"
+  #      logo: "images/sponsors/risc-v.webp"
+  #      link: "https://www.meetup.com/austin-area-risc-v-group/"
+  #
+  #    - name: "PyTexas"
+  #      logo: "images/sponsors/pytexas.png"
+  #      link: "https://www.pytexas.org"
+  #
+  #    - name: "Fedora"
+  #      logo: "images/sponsors/fedora.svg"
+  #      link: "https://fedoraproject.org"
+  #
+  #    - name: "CentOS"
+  #      logo: "images/sponsors/centos.svg"
+  #      link: "centos.svg"
+  #
+  #- name: "Media & Swag"
+  #  sponsor_item:
+  #    - name: "Jupiter Broadcasting"
+  #      logo: "images/sponsors/jupiterbroadcasting.png"
+  #      link: "https://jupiterbroadcasting.com"
+  #
+  #    - name: "Kube Events"
+  #      logo: "images/sponsors/kube-events.svg"
+  #      link: "https://kube.events"
+  #
+  #    - name: "Sticker Mule"
+  #      logo: "images/sponsors/sticker-mule.svg"
+  #      link: "https://mule.to/p5mk"
 
 ############### FAQ ##################
 faq:

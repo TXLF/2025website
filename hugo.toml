@@ -198,11 +198,11 @@ hasChildren = true
   url = "sponsorship/"
   weight = 11
 
-  #[[menu.main]]
-  #parent = "Get Involved"
-  #name = "Sponsors"
-  #url = "sponsors/"
-  #weight = 12
+  [[menu.main]]
+  parent = "Get Involved"
+  name = "Sponsors"
+  url = "sponsors/"
+  weight = 12
 
   [[menu.main]]
   parent = "Get Involved"
