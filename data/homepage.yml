@@ -474,7 +474,7 @@ sponsors:
     sponsor_item:
       - name: "Rackspace"
         logo: "images/sponsors/rackspace.png"
-        link: "https://www.rackspace.com"
+        link: "https://www.rackspace.com/cloud/openstack-flex"
 
   #- name : "Gold Sponsors"
   #  sponsor_item:
