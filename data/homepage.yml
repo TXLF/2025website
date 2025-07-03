@@ -580,15 +580,15 @@ sponsors:
   #      logo: "images/sponsors/centos.svg"
   #      link: "centos.svg"
   #
-  #- name: "Media & Swag"
-  #  sponsor_item:
-  #    - name: "Jupiter Broadcasting"
-  #      logo: "images/sponsors/jupiterbroadcasting.png"
-  #      link: "https://jupiterbroadcasting.com"
-  #
-  #    - name: "Kube Events"
-  #      logo: "images/sponsors/kube-events.svg"
-  #      link: "https://kube.events"
+  - name: "Media & Swag"
+    sponsor_item:
+      - name: "Linux Magazine"
+        logo: "images/sponsors/linux-magazine.png"
+        link: "https://www.linux-magazine.com/"
+
+      - name: "Open Source Job Hub"
+        logo: "images/sponsors/open-source-job-hub.png"
+        link: "https://opensourcejobhub.com/"
   #
   #    - name: "Sticker Mule"
   #      logo: "images/sponsors/sticker-mule.svg"
