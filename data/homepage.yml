@@ -558,15 +558,15 @@ sponsors:
   #      logo: "images/sponsors/aws.svg"
   #      link: "https://aws.amazon.com/opensource/"
   #
-  #- name: "Exhibitors"
-  #  sponsor_item:
+  - name: "Exhibitors"
+    sponsor_item:
   #    - name: "Free Software Foundation"
   #      logo: "images/sponsors/fsf.png"
   #      link: "https://fsf.org"
   #
-  #    - name: "RISC-V"
-  #      logo: "images/sponsors/risc-v.webp"
-  #      link: "https://www.meetup.com/austin-area-risc-v-group/"
+      - name: "Austin RISC-V"
+        logo: "images/sponsors/risc-v.webp"
+        link: "https://austinriscv.club/"
   #
   #    - name: "PyTexas"
   #      logo: "images/sponsors/pytexas.png"
