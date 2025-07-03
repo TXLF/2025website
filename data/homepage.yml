@@ -589,10 +589,14 @@ sponsors:
       - name: "Open Source Job Hub"
         logo: "images/sponsors/open-source-job-hub.png"
         link: "https://opensourcejobhub.com/"
-  #
-  #    - name: "Sticker Mule"
-  #      logo: "images/sponsors/sticker-mule.svg"
-  #      link: "https://mule.to/p5mk"
+
+      - name: "Kube Events"
+        logo: "images/sponsors/kube-events.png"
+        link: "https://kube.events/"
+
+      - name: "Kube Careers"
+        logo: "images/sponsors/kube-careers.png"
+        link: "https://kube.careers/"
 
 ############### FAQ ##################
 faq:
