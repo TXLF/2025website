@@ -502,12 +502,12 @@ sponsors:
   #      logo: "images/sponsors/aws.svg"
   #      link: "https://aws.amazon.com/opensource/"
   #
-  #- name : "Silver Sponsors"
-  #  sponsor_item:
-  #    - name : "SVA"
-  #      logo : "images/sponsors/SVASoftware_Logo_4C.png"
-  #      link: "https://www.svasoftware.com"
-  #
+  - name : "Silver Sponsors"
+    sponsor_item:
+      - name : "Framework"
+        logo : "images/sponsors/framework.png"
+        link: "https://frame.work/"
+  
   #    - name: "SigLens"
   #      logo: "images/sponsors/siglens.png"
   #      link: "https://www.siglens.com"
