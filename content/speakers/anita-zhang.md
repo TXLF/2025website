@@ -4,7 +4,6 @@ description: "Texas Linux Fest 2024"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Software Engineering Manager"
 image: "images/speakers/anita-zhang.png"
-featured: true
 
 social:
   - name: "mastodon"

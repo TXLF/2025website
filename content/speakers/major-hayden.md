@@ -4,7 +4,6 @@ description: "Texas Linux Fest 2024"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Senior Principal Software Engineer"
 image: "images/speakers/major-hayden.png"
-featured: true
 
 social:
 - name: "mastodon"

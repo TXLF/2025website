@@ -4,7 +4,6 @@ description: "Texas Linux Fest 2024"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Open Source Program Office Lead"
 image: "images/speakers/elizabeth-k-joseph.png"
-featured: true
 
 social:
 - name: "mastodon"

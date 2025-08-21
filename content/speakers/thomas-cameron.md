@@ -4,7 +4,6 @@ description: "Texas Linux Fest 2024"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Red Hat Practice Lead"
 image: "images/speakers/thomas-cameron.jpg"
-featured: true
 
 social:
 - name: "mastodon"
