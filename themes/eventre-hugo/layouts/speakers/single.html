@@ -20,16 +20,21 @@
             <div class="details">
               {{ .Content }}
             </div>
+            {{ if .Params.talks }}
+            {{ $current := where .Params.talks ".current" "eq" true }}
+            {{ if $current }}
             <div class="talks">
               <h5>Talks</h5>
               <ul class="list-inline">
-                {{ range .Params.talks }}
+                {{ range $current }}
                 <li class="list-inline-item">
                   <a class="btn btn-transparent-md" href="{{ .link | absURL }}">{{ .title }}</a>
                 </li>
                 {{ end }}
               </ul>
             </div>
+            {{ end }}
+            {{ end }}
             {{ if .Params.social }}
             <div class="social-profiles">
               <h5>Social Profiles</h5>
