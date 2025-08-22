@@ -44,7 +44,7 @@ about:
 ################# Speaker ###################
 speakers:
   enable: true
-  cfp_open: true
+  cfp_open: false
   cfp_link: https://www.papercall.io/txlf2025
   cfp_label: "Submit a talk to our _Call For Papers_"
   title : "Who is _Speaking?_"
