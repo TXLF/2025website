@@ -19,6 +19,9 @@ social:
 talks:
   - title: "Things I wish I knew about containers sooner rather than later."
     link: "talks/things-i-wish-i-knew-about-containers-sooner-rather-than-later/"
+  - title: "Keep it Local: Intro to learning Kubernetes using minikube"
+    link: talks/keep-it-local-intro-to-learning-kubernetes-using-minikube/
+    current: true
 ---
 
 Alex is an open-source enthusiast with over 25 years of experience in Linux,
