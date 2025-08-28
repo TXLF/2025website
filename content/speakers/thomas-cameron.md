@@ -20,6 +20,9 @@ talks:
     link: talks/enterprise-automation-with-awx/
   - title: Learning OKD (upstream for Red Hat OpenShift) on premise
     link: talks/learning-okd-on-premise/
+  - title: Getting Started with Ansible on Linux
+    link: talks/getting-started-with-ansible-on-linux/
+    current: true
 ---
 
 Thomas Cameron has been in IT since 1993. He started out with Novell NetWare,

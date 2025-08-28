@@ -23,9 +23,11 @@ social:
 talks:
   - title: Five tips for a thriving technology career
     link: talks/five-tips-for-a-thriving-technology-career/
-
   - title: Automated container updates with GitHub & CoreOS
     link: talks/automated-container-updates-with-github-coreos/
+  - title: Don't tell me RAG is easy
+    link: talks/dont-tell-me-rag-is-easy/
+    current: true
 ---
 
 Major works on all kinds of technology at Red Hat, including artificial
