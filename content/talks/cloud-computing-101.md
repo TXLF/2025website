@@ -7,9 +7,9 @@ when: "Saturday, April 13, 11:00 AM - 11:45 AM"
 where: "Room 2"
 
 speakers:
-  - name: "Talia Nassi"
-    image: "images/speakers/talia-nassi.png"
-    link: "speakers/talia-nassi/"
+  - name: Talia Kohan
+    image: images/speakers/talia-kohan.jpg
+    link: speakers/talia-kohan/
 ---
 
 If you've always been curious about the cloud, or have had questions about how
