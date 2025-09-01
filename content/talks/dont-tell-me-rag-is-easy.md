@@ -3,8 +3,8 @@ title: Don't tell me RAG is easy
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: TBD
-where: TBD
+when: Saturday, October 4th (time TBD)
+where: Lil Tex
 speakers:
   - name: Major Hayden
     image: images/speakers/major-hayden.png

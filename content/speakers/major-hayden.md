@@ -8,17 +8,14 @@ current: true
 featured: true
 
 social:
-- name: mastodon
-  icon: fa-brands fa-mastodon
-  link: https://social.lol/@major
-
-- name: linkedin
-  icon: fa-brands fa-linkedin
-  link: https://www.linkedin.com/in/majorhayden/
-
-- name: website
-  icon: fa-solid fa-globe
-  link: https://major.io/
+  - icon: fa-solid fa-globe
+    link: https://major.io/
+  - icon: fa-brands fa-linkedin
+    link: https://www.linkedin.com/in/majorhayden/
+  - icon: fa-brands fa-github
+    link: https://github.com/major
+  - icon: fa-brands fa-mastodon
+    link: https://tootloop.com/@major
 
 talks:
   - title: Five tips for a thriving technology career

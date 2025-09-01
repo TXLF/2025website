@@ -8,13 +8,12 @@ current: true
 featured: true
 
 social:
-- name: twitter
-  icon: fa-brands fa-twitter
-  link: https://twitter.com/mralexjuarez
-
-- name: linkedin
-  icon: fa-brands fa-linkedin
-  link: https://www.linkedin.com/in/jandro/
+  - icon: fa-brands fa-linkedin
+    link: https://www.linkedin.com/in/jandro/
+  - icon: fa-brands fa-github
+    link: https://github.com/mralexjuarez
+  - icon: fa-brands fa-x-twitter
+    link: https://x.com/mralexjuarez
 
 talks:
   - title: "Things I wish I knew about containers sooner rather than later."
