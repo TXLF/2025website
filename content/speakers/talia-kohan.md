@@ -4,8 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Staff Developer Advocate
 image: images/speakers/talia-kohan.jpg
-current: true
-featured: true
 
 social:
   - icon: fa-solid fa-globe
@@ -22,7 +20,6 @@ talks:
     link: talks/cloud-computing-101/
   - title: There's no AI without APIs
     link: talks/theres-no-ai-without-apis/
-    current: true
 ---
 
 Talia Kohan (Talia Nassi) is a Staff Developer Advocate at Postman, helping
