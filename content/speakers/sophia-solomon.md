@@ -5,6 +5,7 @@ page_header_bg: images/background/page-title-bg.jpg
 designation: Developer Advocate
 image: images/speakers/sophia-solomon.jpg
 current: true
+featured: true
 
 social:
   - icon: fa-brands fa-linkedin
