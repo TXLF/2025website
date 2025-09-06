@@ -304,11 +304,11 @@ tab:
 
     - subject: "TXLF After Party"
       talk_link: "party/"
-      venue: "FIXME"
-      time: "8:00 PM - 10:00 PM"
+      venue: Lavaca Street Bar - Rock Rose
+      time: 7:30 PM - 10:00 PM
       column: -1
-      start_hour: 20
-      start_minute: 0
+      start_hour: 19
+      start_minute: 30
       end_hour: 22
       end_minute: 0
 
@@ -537,26 +537,14 @@ sponsors:
   #    - name: "Civo"
   #      logo: "images/sponsors/civo.svg"
   #      link: "https://www.civo.com"
-  #
-  #- name: "After Party Sponsors"
-  #  link: "party/"
-  #  sponsor_item:
-  #    - name: "Coder"
-  #      logo: "images/sponsors/coder.png"
-  #      link: "https://coder.com/"
-  #
-  #    - name: "Tailscale"
-  #      logo: "images/sponsors/tailscale.svg"
-  #      link: "https://tailscale.com/"
-  #
-  #    - name: "Meta"
-  #      logo: "images/sponsors/meta.png"
-  #      link: "https://about.meta.com"
-  #
-  #    - name: "AWS"
-  #      logo: "images/sponsors/aws.svg"
-  #      link: "https://aws.amazon.com/opensource/"
-  #
+
+  - name: After Party Sponsors
+    link: party/
+    sponsor_item:
+      - name: Meta
+        logo: images/sponsors/meta.png
+        link: https://about.meta.com
+
   - name: "Exhibitors"
     sponsor_item:
   #    - name: "Free Software Foundation"
