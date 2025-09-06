@@ -18,8 +18,9 @@
       <div class="col-12">
         {{ range where .sponsor_group ".name" "eq" "After Party Sponsors" }}
         <!-- Title -->
+        {{ if .sponsor_item }}
         <div class="sponsor-title text-center">
-          <h5>Sponsors</h5>
+          <h5>Sponsor{{ if gt (len .sponsor_item) 1 }}s{{ end }}</h5>
         </div>
         <div class="block text-center">
           <!-- Sponsors image list -->
@@ -35,6 +36,7 @@
             {{ end }}
           </ul>
         </div>
+        {{ end }}
         {{ end }}
       </div>
     </div>
