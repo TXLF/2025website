@@ -133,11 +133,11 @@ hasChildren = true
   url = "code_of_conduct/"
   weight = 3
 
-  #[[menu.main]]
-  #parent = "About TXLF"
-  #name = "After Party"
-  #url = "party/"
-  #weight = 4
+  [[menu.main]]
+  parent = "About TXLF"
+  name = "After Party"
+  url = "party/"
+  weight = 4
 
   [[menu.main]]
   parent = "About TXLF"
