@@ -475,15 +475,15 @@ sponsors:
         logo: "images/sponsors/rackspace.png"
         link: "https://www.rackspace.com/cloud/openstack-flex"
 
-  #- name : "Gold Sponsors"
-  #  sponsor_item:
-  #    - name : "redhat"
-  #      logo : "images/sponsors/redhat.svg"
-  #      link: "https://www.redhat.com"
-  #
-  #      - name: "elastic"
-  #        logo: "images/sponsors/elastic.svg"
-  #        link: "https://www.elastic.co"
+  - name : "Gold Sponsors"
+    sponsor_item:
+      - name : "redhat"
+        logo : "images/sponsors/redhat.svg"
+        link: "https://www.redhat.com"
+
+      - name: "elastic"
+        logo: "images/sponsors/elastic.svg"
+        link: "https://www.elastic.co"
   #
   #      - name: "rocky-linux"
   #        logo: "images/sponsors/rocky-linux.png"
@@ -506,10 +506,10 @@ sponsors:
       - name : "Framework"
         logo : "images/sponsors/framework.png"
         link: "https://frame.work/"
-  
-  #    - name: "SigLens"
-  #      logo: "images/sponsors/siglens.png"
-  #      link: "https://www.siglens.com"
+
+      - name: "AlmaLinux"
+        logo: "images/sponsors/almalinux.png"
+        link: "https://almalinux.org"
   #
   #    - name: "groundcover"
   #      logo: "images/sponsors/groundcover.svg"
@@ -519,9 +519,6 @@ sponsors:
   #      logo: "images/sponsors/meta.png"
   #      link: "https://about.meta.com"
   #
-  #    - name: "AlmaLinux"
-  #      logo: "images/sponsors/almalinux.png"
-  #      link: "https://almalinux.org"
   #
   #    - name: "Cosmonic"
   #      logo: "images/sponsors/cosmonic.png"
