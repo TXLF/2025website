@@ -13,3 +13,5 @@ It will be hosted at [_Lavaca Street Bar_](https://lavacastdomain.com),
 located at 11420 Rock Rose Avenue Suite 100.
 Our group reservation is from 7:30 PM to 10:00 PM,
 but attendees can stay longer if they wish.
+Your conference badge will serve as your ticket,
+so make sure to bring it with you.
