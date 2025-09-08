@@ -504,7 +504,7 @@ sponsors:
   - name : "Silver Sponsors"
     sponsor_item:
       - name : "Framework"
-        logo : "images/sponsors/framework.png"
+        logo : "images/sponsors/framework.svg"
         link: "https://frame.work/"
 
       - name: "AlmaLinux"
