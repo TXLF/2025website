@@ -484,10 +484,10 @@ sponsors:
       - name: "elastic"
         logo: "images/sponsors/elastic.svg"
         link: "https://www.elastic.co"
-  #
-  #      - name: "rocky-linux"
-  #        logo: "images/sponsors/rocky-linux.png"
-  #        link: "https://rockylinux.org"
+
+      - name: "Percona"
+        logo: "images/sponsors/percona.png"
+        link: "https://www.percona.com/"
   #
   #    - name: "rezoomex"
   #      logo: "images/sponsors/rezoomex_logo.svg"
