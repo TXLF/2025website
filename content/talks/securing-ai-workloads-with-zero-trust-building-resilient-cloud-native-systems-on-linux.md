@@ -3,7 +3,7 @@ title: "Securing AI Workloads with Zero Trust: Building Resilient Cloud-Native S
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: Saturday, October 4th (time TBD)
+when: "Saturday, October 4th, 5:00 PM - 5:45 PM"
 where: Lil Tex
 speakers:
   - name: Sudheer Obbu

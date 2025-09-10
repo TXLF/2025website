@@ -3,7 +3,7 @@ title: "Pipelines as a Service: Codifying Workflows & Other Tribal Knowledge"
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Workshop
-when: Friday, October 3rd (time TBD)
+when: "Friday, October 3rd, 3:00 PM - 4:30 PM"
 where: Bevo
 speakers:
   - name: Cody Lee Cochran

@@ -3,7 +3,7 @@ title: Lessons Learned Building Observability for a Non-Profit
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: Saturday, October 4th (time TBD)
+when: "Saturday, October 4th, 5:00 PM - 5:45 PM"
 where: Bevo
 speakers:
   - name: Willard Nilges

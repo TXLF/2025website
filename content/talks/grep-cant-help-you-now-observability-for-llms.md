@@ -3,7 +3,7 @@ title: "Grep Can't Help You Now: Observability for LLMs"
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: Saturday, October 4th (time TBD)
+when: "Saturday, October 4th, 3:00 PM - 3:45 PM"
 where: Lil Tex
 speakers:
   - name: Sophia Solomon
