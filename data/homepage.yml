@@ -566,6 +566,10 @@ sponsors:
   #
   - name: "Media & Swag"
     sponsor_item:
+      - name: Jupiter Broadcasting
+        logo: images/sponsors/jupiterbroadcasting.png
+        link: https://jupiterbroadcasting.com
+
       - name: "Linux Magazine"
         logo: "images/sponsors/linux-magazine.png"
         link: "https://www.linux-magazine.com/"
