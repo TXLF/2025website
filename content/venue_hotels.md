@@ -11,7 +11,4 @@ ignore_header: true
 
 ### Hotels for _Texas Linux Festival_
 
-There are several hotel options available to attendees of Texas Linux Fest.
-<br/><br/>
-
-<a href="https://commons.utexas.edu/meetings-and-events/area-hotels">Here is a list of recommended hotels by the Commons Conference Center</a>
+We have arranged a room block at the <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1757085354036&key=GRP&app=resvlink">Marriot Element Hotel at the Domain</a>
