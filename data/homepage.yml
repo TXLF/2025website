@@ -249,6 +249,19 @@ tab:
 
     ## 11:00 AM
 
+    - speaker: Kory Heard
+      speaker_image: images/speakers/kory-heard-thumb.jpg
+      speaker_link: speakers/kory-heard/
+      talk_link: talks/the-design-and-implementation-of-the-darwin-operating-system/
+      subject: "The Design & Implementation of the Darwin Operating System"
+      venue: Big Tex
+      time: "11:00 AM - 11:45 AM"
+      column: 3
+      start_hour: 11
+      start_minute: 0
+      end_hour: 11
+      end_minute: 45
+
     - speaker: Thomas Cameron
       speaker_image: images/speakers/thomas-cameron-thumb.jpg
       speaker_link: speakers/thomas-cameron/
@@ -270,6 +283,19 @@ tab:
       venue: Balcones
       time: "11:00 AM - 11:45 AM"
       column: 5
+      start_hour: 11
+      start_minute: 0
+      end_hour: 11
+      end_minute: 45
+
+    - speaker: Eduardo Robles
+      speaker_image: images/speakers/eduardo-robles-thumb.jpg
+      speaker_link: speakers/eduardo-robles/
+      talk_link: talks/i-got-malware-btw/
+      subject: "I got Malware, BTW. A quick look at the rising trend of Linux Malware."
+      venue: Bevo
+      time: "11:00 AM - 11:45 AM"
+      column: 7
       start_hour: 11
       start_minute: 0
       end_hour: 11
