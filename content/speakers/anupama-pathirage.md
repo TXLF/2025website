@@ -24,4 +24,11 @@ talks:
 
 ---
 
-Anupama, Head of Engineering - Integration at WSO2, leads the development of the WSO2 Integration product stack. With over 15 years of experience in the software industry, she brings expertise in engineering leadership, strategic planning, and driving large-scale technical initiatives. Anupama has been instrumental in shaping multiple WSO2 products and contributing to the advancement of the Ballerina programming language. She is a frequent speaker at industry events and tech meetups, where she shares her expertise on integration technologies, leadership, and software development best practices.
+Anupama, Head of Engineering - Integration at WSO2, leads the development of 
+the WSO2 Integration product stack. With over 15 years of experience in the 
+software industry, she brings expertise in engineering leadership, strategic 
+planning, and driving large-scale technical initiatives. Anupama has been 
+instrumental in shaping multiple WSO2 products and contributing to the 
+advancement of the Ballerina programming language. She is a frequent speaker at 
+industry events and tech meetups, where she shares her expertise on integration 
+technologies, leadership, and software development best practices.
