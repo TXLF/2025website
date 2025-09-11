@@ -22,6 +22,13 @@ talks:
 
 ---
 
-Currently providing technical evangelism for NGINX, Dave works with DevOps, developers and architects to understand the advantages of modern microservice architectures and orchestration to solve large-scale distributed systems challenges, especially with open source and its innovation. Dave has been a champion for open systems and open source from the early days of Linux, through open distributed file systems like XFS, GFS, and GlusterFS to today’s world of clouds and containers. He often speaks on topics such as the real-world issues associated with emerging software architectures and practices, on open source software and on creating new technology companies.
-
+Currently providing technical evangelism for NGINX, Dave works with DevOps, 
+developers and architects to understand the advantages of modern microservice 
+architectures and orchestration to solve large-scale distributed systems 
+challenges, especially with open source and its innovation. Dave has been a 
+champion for open systems and open source from the early days of Linux, through
+ open distributed file systems like XFS, GFS, and GlusterFS to today’s world of 
+clouds and containers. He often speaks on topics such as the real-world issues 
+associated with emerging software architectures and practices, on open source 
+software and on creating new technology companies.
 
