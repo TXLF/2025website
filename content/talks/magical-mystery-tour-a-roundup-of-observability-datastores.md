@@ -3,8 +3,8 @@ title: "Magical Mystery Tour: A Roundup of Observability Datastores"
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: Saturday, October 4th (time TBD)
-where: Stadium
+when: "Saturday, October 4th, 11:00 AM - 11:45 AM"
+where: Balcones
 speakers:
   - name: Joshua Lee
     image: images/speakers/joshua-lee.jpg

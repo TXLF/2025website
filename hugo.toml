@@ -121,11 +121,11 @@ hasChildren = true
   url = "about/"
   weight = 1
 
-  #[[menu.main]]
-  #parent = "About TXLF"
-  #name = "Speakers"
-  #url = "speakers/"
-  #weight = 2
+  [[menu.main]]
+  parent = "About TXLF"
+  name = "Speakers"
+  url = "speakers/"
+  weight = 2
 
   [[menu.main]]
   parent = "About TXLF"
@@ -151,29 +151,29 @@ hasChildren = true
 #url = "speakers/"
 #weight = 3
 
-#[[menu.main]]
-#name = "Schedule"
-#url = "schedule/"
-#weight = 4
-#hasChildren = true
-#
-#  [[menu.main]]
-#  parent = "Schedule"
-#  name = "List view"
-#  url = "/schedule"
-#  weight = 10
-#
-#  [[menu.main]]
-#  parent = "Schedule"
-#  name = "Grid view - Day 1"
-#  url = "/fpg-schedule-day-1"
-#  weight = 20
-#
-#  [[menu.main]]
-#  parent = "Schedule"
-#  name = "Grid view - Day 2"
-#  url = "/fpg-schedule-day-2"
-#  weight = 30
+[[menu.main]]
+name = "Schedule"
+url = "schedule/"
+weight = 4
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Schedule"
+  name = "List view"
+  url = "/schedule"
+  weight = 10
+
+  [[menu.main]]
+  parent = "Schedule"
+  name = "Grid view - Day 1"
+  url = "/fpg-schedule-day-1"
+  weight = 20
+
+  [[menu.main]]
+  parent = "Schedule"
+  name = "Grid view - Day 2"
+  url = "/fpg-schedule-day-2"
+  weight = 30
 
 [[menu.main]]
 weight = 5

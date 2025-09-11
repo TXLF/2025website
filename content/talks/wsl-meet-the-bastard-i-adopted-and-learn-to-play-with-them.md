@@ -3,7 +3,7 @@ title: "WSL: Meet the bastard I adopted and learn to play with them."
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Workshop
-when: Friday, October 3rd (time TBD)
+when: "Friday, October 3rd, 9:00 AM - 12:00 PM"
 where: Stadium
 speakers:
   - name: Jon Roberts

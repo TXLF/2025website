@@ -3,8 +3,8 @@ title: Exploring Kubernetes Gateway API and NGINX Gateway Fabric
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: "Saturday, October 4th, 3:00 - 3:45 PM"
-where: Balcones
+when: "Saturday, October 4th, 5:00 PM - 5:45 PM"
+where: Stadium
 speakers:
   - name: Dave McAllister
     image: images/speakers/dave-mcallister.jpg

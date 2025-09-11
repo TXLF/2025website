@@ -3,8 +3,8 @@ title: Getting Started with Ansible on Linux
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: Saturday, October 4th (time TBD)
-where: Balcones
+when: "Saturday, October 4th, 11:00 AM - 11:45 AM"
+where: Lil Tex
 speakers:
   - name: Thomas Cameron
     image: images/speakers/thomas-cameron.jpg
