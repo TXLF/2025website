@@ -3,8 +3,8 @@ title: Best Practices for Managing Jenkins
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: "Saturday, October 4th, 4:00 - 4:45 PM"
-where: Balcones
+when: "Saturday, October 4th, 10:00 AM - 10:45 AM"
+where: Lil Tex
 speakers:
   - name: Darin Pope
     image: images/speakers/darin-pope.jpg

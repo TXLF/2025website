@@ -3,7 +3,7 @@ title: "Truly Portable Code: Serverless WebAssembly in a Distributed World"
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Workshop
-when: Friday, October 3rd (time TBD)
+when: "Friday, October 3rd, 9:00 AM - 10:30 AM"
 where: Bevo
 speakers:
   - name: Caleb Schoepp

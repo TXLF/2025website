@@ -71,242 +71,478 @@ speakers:
 
 ###################### Tab ####################
 tab:
-  enable : false
+  enable : true
   title : "Event _Schedule_"
   content : "The schedule of events is subject to change without prior notifications."
   tablist:
   # tab item
   - name : "Day 1"
-    date : "FIX ME"
+    date : "October 3"
     tablist_items:
 
     ## 9:00 AM
 
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
-      column: 4
+    - subject: TXLF Expo Booths
+      venue: Atrium
+      column: 2
+      time: "9:00 AM - 4:30 PM"
       start_hour: 9
       start_minute: 0
-      end_hour: 9
-      end_minute: 50
+      end_hour: 16
+      end_minute: 30
 
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
-      column: 5
-      start_hour: 9
-      start_minute: 0
-      end_hour: 9
-      end_minute: 50
-
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
+    - speaker: Jon Roberts
+      speaker_image: images/speakers/jon-roberts-thumb.jpg
+      speaker_link: speakers/jon-roberts/
+      talk_link: talks/wsl-meet-the-bastard-i-adopted-and-learn-to-play-with-them/
+      subject: "WSL: Meet the bastard I adopted and learn to play with them."
+      venue: Stadium
+      time: "9:00 AM - 12:00 PM"
       column: 6
       start_hour: 9
       start_minute: 0
-      end_hour: 9
-      end_minute: 50
+      end_hour: 12
+      end_minute: 0
 
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
+    - speaker: Caleb Schoepp
+      speaker_image: images/speakers/caleb-schoepp-thumb.jpg
+      speaker_link: speakers/caleb-schoepp/
+      talk_link: talks/truly-portable-code-serverless-webassembly-in-a-distributed-world/
+      subject: "Truly Portable Code: Serverless WebAssembly in a Distributed World"
+      venue: Bevo
+      time: "9:00 AM - 10:30 AM"
       column: 7
       start_hour: 9
       start_minute: 0
-      end_hour: 9
-      end_minute: 50
+      end_hour: 10
+      end_minute: 30
 
-    ## 10:00 AM
-
-    - subject : "TXLF Expo Booths"
-      venue : "FIXME HALL"
+    - speaker: Sean Thrailkill
+      speaker_image: images/speakers/sean-thrailkill-thumb.jpg
+      speaker_link: speakers/sean-thrailkill/
+      talk_link: talks/create-your-own-bootable-container/
+      subject: Create Your Own Bootable Container!
+      venue: Bevo
+      time: "10:30 AM - 12:00 PM"
       column: 7
-      time : "10:00 AM - 5:00 PM"
       start_hour: 10
-      start_minute: 0
-      end_hour: 17
+      start_minute: 30
+      end_hour: 12
       end_minute: 0
-
-    # FIXME
 
     ## 12:00 PM
 
-    - subject : "Lunch"
-      time : "12:00 PM - 1:30 PM"
+    - subject: Lunch
+      time: "12:00 PM - 1:30 PM"
       start_hour: 12
       start_minute: 0
       end_hour: 13
       end_minute: 30
-      column: -1
+      column: 8
 
-    ## 1:00 PM
+    ## 1:30 PM
 
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
-      column: 4
-      start_hour: 9
-      start_minute: 0
-      end_hour: 9
-      end_minute: 50
-
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
-      column: 5
-      start_hour: 9
-      start_minute: 0
-      end_hour: 9
-      end_minute: 50
-
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
+    - speaker: Alex Juarez
+      speaker_image: images/speakers/alex-juarez-thumb.jpg
+      speaker_link: speakers/alex-juarez/
+      talk_link: talks/keep-it-local-intro-to-learning-kubernetes-using-minikube/
+      subject: "Keep it Local: Intro to learning Kubernetes using minikube"
+      venue: Stadium
+      time: "1:30 PM - 4:30 PM"
       column: 6
-      start_hour: 9
-      start_minute: 0
-      end_hour: 9
-      end_minute: 50
+      start_hour: 13
+      start_minute: 30
+      end_hour: 16
+      end_minute: 30
 
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
+    - speaker: Ryan Edge
+      speaker_image: images/speakers/ryan-edge-thumb.jpg
+      speaker_link: speakers/ryan-edge/
+      talk_link: talks/accelerating-linux-application-development-with-flutter-a-hands-on-workshop/
+      subject: "Accelerating Linux Application Development with Flutter: A Hands-on Workshop"
+      venue: Bevo
+      time: "1:30 PM - 3:00 PM"
       column: 7
-      start_hour: 9
+      start_hour: 13
+      start_minute: 30
+      end_hour: 15
+      end_minute: 0
+
+    - speaker: Cody Lee Cochran
+      speaker_image: images/speakers/cody-lee-cochran-thumb.jpg
+      speaker_link: speakers/cody-lee-cochran/
+      talk_link: talks/pipelines-as-a-service-codifying-workflows-other-tribal-knowledge/
+      subject: "Pipelines as a Service: Codifying Workflows & Other Tribal Knowledge"
+      venue: Bevo
+      time: "3:00 PM - 4:30 PM"
+      column: 7
+      start_hour: 15
       start_minute: 0
-      end_hour: 9
-      end_minute: 50
+      end_hour: 16
+      end_minute: 30
 
-    ## 2:00 PM
-
-    # FIXME
+    - subject: Lightning talks
+      venue: Big Tex
+      time: "4:45 PM - 5:15 PM"
+      column: 3
+      start_hour: 16
+      start_minute: 45
+      end_hour: 17
+      end_minute: 15
 
   # tab item
   - name : "Day 2"
-    date : "FIX ME"
+    date : "October 4"
     tablist_items:
 
     ## 9:00 AM
 
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
-      column: 4
-      start_hour: 9
-      start_minute: 0
-      end_hour: 9
-      end_minute: 50
-
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
-      column: 5
-      start_hour: 9
-      start_minute: 0
-      end_hour: 9
-      end_minute: 50
-
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
-      column: 6
-      start_hour: 9
-      start_minute: 0
-      end_hour: 9
-      end_minute: 50
-
-    - speaker : "FIXME"
-      speaker_image : "images/speakers/fixme-thumb.jpg"
-      speaker_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      talk_link: "https://2025.texaslinuxfest.org/speaker/fixme/"
-      subject: "FIXME"
-      venue : "FIXME ROOM"
-      time : "9:00 AM - 9:50 AM"
-      column: 7
-      start_hour: 9
-      start_minute: 0
-      end_hour: 9
-      end_minute: 50
-
     ## 10:00 AM
 
-    # FIXME
-
-    ## 5:30 PM
-
-    - subject : "Lightning talks"
-      venue : "FIXME"
-      time : "5:30 PM - 6:00 PM"
-      column: 7
-      start_hour: 17
-      start_minute: 30
+    - subject: TXLF Expo Booths
+      venue: Atrium
+      column: 2
+      time: "10:00 AM - 6:00 PM"
+      start_hour: 10
+      start_minute: 0
       end_hour: 18
       end_minute: 0
 
+    - speaker: Ignat Korchagin
+      speaker_image: images/speakers/ignat-korchagin-thumb.jpg
+      speaker_link: speakers/ignat-korchagin/
+      talk_link: talks/an-engineers-guide-to-linux-kernel-upgrades/
+      subject: An engineer's guide to Linux Kernel upgrades
+      venue: Big Tex
+      time: "10:00 AM - 10:45 AM"
+      column: 3
+      start_hour: 10
+      start_minute: 0
+      end_hour: 10
+      end_minute: 45
+
+    - speaker: Darin Pope
+      speaker_image: images/speakers/darin-pope-thumb.jpg
+      speaker_link: speakers/darin-pope/
+      talk_link: talks/best-practices-for-managing-jenkins/
+      subject: Best Practices for Managing Jenkins
+      venue: Lil Tex
+      time: "10:00 AM - 10:45 AM"
+      column: 4
+      start_hour: 10
+      start_minute: 0
+      end_hour: 10
+      end_minute: 45
+
+    - speaker: Sai Durga Rithvik Oruganti
+      speaker_image: images/speakers/sai-durga-rithvik-oruganti-thumb.jpg
+      speaker_link: speakers/sai-durga-rithvik-oruganti/
+      talk_link: talks/lessons-they-dont-teach-you-in-school-a-year-in-high-performance-computing/
+      subject: "Lessons They Don't Teach You in School: A Year in High-Performance Computing"
+      venue: Bevo
+      time: "10:00 AM - 10:45 AM"
+      column: 7
+      start_hour: 10
+      start_minute: 0
+      end_hour: 10
+      end_minute: 45
+
+    ## 11:00 AM
+
+    - speaker: Thomas Cameron
+      speaker_image: images/speakers/thomas-cameron-thumb.jpg
+      speaker_link: speakers/thomas-cameron/
+      talk_link: talks/getting-started-with-ansible-on-linux/
+      subject: Getting Started with Ansible on Linux
+      venue: Lil Tex
+      time: "11:00 AM - 11:45 AM"
+      column: 4
+      start_hour: 11
+      start_minute: 0
+      end_hour: 11
+      end_minute: 45
+
+    - speaker: Joshua Lee
+      speaker_image: images/speakers/joshua-lee-thumb.jpg
+      speaker_link: speakers/joshua-lee/
+      talk_link: talks/magical-mystery-tour-a-roundup-of-observability-datastores/
+      subject: "Magical Mystery Tour: A Roundup of Observability Datastores"
+      venue: Balcones
+      time: "11:00 AM - 11:45 AM"
+      column: 5
+      start_hour: 11
+      start_minute: 0
+      end_hour: 11
+      end_minute: 45
+
+    ## 12:00 PM
+
+    - subject: Lunch
+      time: "12:00 PM - 2:00 PM"
+      start_hour: 12
+      start_minute: 0
+      end_hour: 14
+      end_minute: 0
+      column: 8
+
+    ## 2:00 PM
+
+    - speaker: Chris Arges
+      speaker_image: images/speakers/chris-arges-thumb.jpg
+      speaker_link: speakers/chris-arges/
+      talk_link: talks/verified-debian-packaging-at-scale/
+      subject: Verified Debian Packaging at Scale
+      venue: Big Tex
+      time: "2:00 PM - 2:45 PM"
+      column: 3
+      start_hour: 14
+      start_minute: 0
+      end_hour: 14
+      end_minute: 45
+
+    - speaker: Major Hayden
+      speaker_image: images/speakers/major-hayden-thumb.png
+      speaker_link: speakers/major-hayden/
+      talk_link: talks/dont-tell-me-rag-is-easy/
+      subject: Don't tell me RAG is easy
+      venue: Lil Tex
+      time: "2:00 PM - 2:45 PM"
+      column: 4
+      start_hour: 14
+      start_minute: 0
+      end_hour: 14
+      end_minute: 45
+
+    - speaker: Anupama Pathirage
+      speaker_image: images/speakers/anupama-pathirage-thumb.jpg
+      speaker_link: speakers/anupama-pathirage/
+      talk_link: talks/effortless-cloud-integrations-ballerina-for-kubernetes-and-beyond/
+      subject: "Effortless Cloud Integrations: Ballerina for Kubernetes and Beyond"
+      venue: Stadium
+      time: "2:00 PM - 2:45 PM"
+      column: 6
+      start_hour: 14
+      start_minute: 0
+      end_hour: 14
+      end_minute: 45
+
+    - speaker: Michael Troutman
+      speaker_image: images/speakers/michael-troutman-thumb.jpg
+      speaker_link: speakers/michael-troutman/
+      talk_link: talks/lifting-the-documentation-burden-with-open-source-tools-and-resources/
+      subject: Lifting the Documentation Burden with Open Source Tools and Resources
+      venue: Bevo
+      time: "2:00 PM - 2:45 PM"
+      column: 7
+      start_hour: 14
+      start_minute: 0
+      end_hour: 14
+      end_minute: 45
+
+    ## 3:00 PM
+
+    - speaker: Robert Callicotte
+      speaker_image: images/speakers/robert-callicotte-thumb.jpg
+      speaker_link: speakers/robert-callicotte/
+      talk_link: talks/running-centos-stream-in-production/
+      subject: Running CentOS Stream in Production
+      venue: Big Tex
+      time: "3:00 PM - 3:45 PM"
+      column: 3
+      start_hour: 15
+      start_minute: 0
+      end_hour: 15
+      end_minute: 45
+
+    - speaker: Sophia Solomon
+      speaker_image: images/speakers/sophia-solomon-thumb.jpg
+      speaker_link: speakers/sophia-solomon/
+      talk_link: talks/grep-cant-help-you-now-observability-for-llms/
+      subject: "Grep Can't Help You Now: Observability for LLMs"
+      venue: Lil Tex
+      time: "3:00 PM - 3:45 PM"
+      column: 4
+      start_hour: 15
+      start_minute: 0
+      end_hour: 15
+      end_minute: 45
+
+    - speaker: Matthew Penaroza
+      speaker_image: images/speakers/matthew-penaroza-thumb.jpg
+      speaker_link: speakers/matthew-penaroza/
+      talk_link: talks/mastering-database-selection-for-system-design/
+      subject: Mastering Database Selection for System Design
+      venue: Balcones
+      time: "3:00 PM - 3:45 PM"
+      column: 5
+      start_hour: 15
+      start_minute: 0
+      end_hour: 15
+      end_minute: 45
+
+    - speaker: Mayur Bhandari
+      speaker_image: images/speakers/mayur-bhandari-thumb.jpg
+      speaker_link: speakers/mayur-bhandari/
+      talk_link: talks/building-smart-cities-with-open-source/
+      subject: "Building Smart Cities with Open Source: How Linux-Based Distributed Systems Are Transforming Urban Infrastructure"
+      venue: Stadium
+      time: "3:00 PM - 3:45 PM"
+      column: 6
+      start_hour: 15
+      start_minute: 0
+      end_hour: 15
+      end_minute: 45
+
+    - speaker: Paul Novarese
+      speaker_image: images/speakers/paul-novarese-thumb.jpg
+      speaker_link: speakers/paul-novarese/
+      talk_link: talks/among-us-theyre-in-the-open-source-supply-chain/
+      subject: "Among Us: They're in the Open Source Supply Chain"
+      venue: Bevo
+      time: "3:00 PM - 3:45 PM"
+      column: 7
+      start_hour: 15
+      start_minute: 0
+      end_hour: 15
+      end_minute: 45
+
+    ## 4:00 PM
+
+    - speaker: Carl Thompson
+      speaker_image: images/speakers/carl-thompson-thumb.jpg
+      speaker_link: speakers/carl-thompson/
+      talk_link: talks/demystifying-selinux/
+      subject: Demystifying SELinux
+      venue: Big Tex
+      time: "4:00 PM - 4:45 PM"
+      column: 3
+      start_hour: 16
+      start_minute: 0
+      end_hour: 16
+      end_minute: 45
+
+    - speaker: JJ Asghar
+      speaker_image: images/speakers/jj-asghar-thumb.jpg
+      speaker_link: speakers/jj-asghar/
+      talk_link: talks/using-open-source-ai-and-linux-to-help-medical-school-students/
+      subject: Using Open Source AI and Linux to help Medical School Students
+      venue: Lil Tex
+      time: "4:00 PM - 4:45 PM"
+      column: 4
+      start_hour: 16
+      start_minute: 0
+      end_hour: 16
+      end_minute: 45
+
+    - speaker: Mario Limonciello
+      speaker_image: images/speakers/mario-limonciello-thumb.jpg
+      speaker_link: speakers/mario-limonciello/
+      talk_link: talks/steamos-on-the-lenovo-go-s/
+      subject: SteamOS™ on the Lenovo™ Go S
+      venue: Balcones
+      time: "4:00 PM - 4:45 PM"
+      column: 5
+      start_hour: 16
+      start_minute: 0
+      end_hour: 16
+      end_minute: 45
+
+    - speaker: Brett Estrade
+      speaker_image: images/speakers/brett-estrade-thumb.jpg
+      speaker_link: speakers/brett-estrade/
+      talk_link: talks/real-time-hurricane-storm-surge-prediction-using-open-source/
+      subject: Real-Time Hurricane Storm Surge Prediction using Open Source
+      venue: Bevo
+      time: "4:00 PM - 4:45 PM"
+      column: 7
+      start_hour: 16
+      start_minute: 0
+      end_hour: 16
+      end_minute: 45
+
+    ## 5:00 PM
+
+    - speaker: Wes Payne
+      speaker_image: images/speakers/wes-payne-thumb.jpg
+      speaker_link: speakers/wes-payne/
+      talk_link: talks/mesh-network-sidecars-for-nixos-services/
+      subject: Mesh Network Sidecars for NixOS Services
+      venue: Big Tex
+      time: "5:00 PM - 5:45 PM"
+      column: 3
+      start_hour: 17
+      start_minute: 0
+      end_hour: 17
+      end_minute: 45
+
+    - speaker: Sudheer Obbu
+      speaker_image: images/speakers/sudheer-obbu-thumb.jpg
+      speaker_link: speakers/sudheer-obbu/
+      talk_link: talks/securing-ai-workloads-with-zero-trust-building-resilient-cloud-native-systems-on-linux/
+      subject: "Securing AI Workloads with Zero Trust: Building Resilient Cloud-Native Systems on Linux"
+      venue: Lil Tex
+      time: "5:00 PM - 5:45 PM"
+      column: 4
+      start_hour: 17
+      start_minute: 0
+      end_hour: 17
+      end_minute: 45
+
+    - speaker: Carl Perry
+      speaker_image: images/speakers/carl-perry-thumb.jpg
+      speaker_link: speakers/carl-perry/
+      talk_link: talks/linux-on-risc-v-where-we-are-where-were-going-and-how-you-can-jump-in/
+      subject: "Linux on RISC-V: Where we are, where we're going, and how you can jump in"
+      venue: Balcones
+      time: "5:00 PM - 5:45 PM"
+      column: 5
+      start_hour: 17
+      start_minute: 0
+      end_hour: 17
+      end_minute: 45
+
+    - speaker: Dave McAllister
+      speaker_image: images/speakers/dave-mcallister-thumb.jpg
+      speaker_link: speakers/dave-mcallister/
+      talk_link: talks/exploring-kubernetes-gateway-api-and-nginx-gateway-fabric/
+      subject: Exploring Kubernetes Gateway API and NGINX Gateway Fabric
+      venue: Stadium
+      time: "5:00 PM - 5:45 PM"
+      column: 6
+      start_hour: 17
+      start_minute: 0
+      end_hour: 17
+      end_minute: 45
+
+    - speaker: Willard Nilges
+      speaker_image: images/speakers/willard-nilges-thumb.jpg
+      speaker_link: speakers/willard-nilges/
+      talk_link: talks/lessons-learned-building-observability-for-a-non-profit/
+      subject: Lessons Learned Building Observability for a Non-Profit
+      venue: Bevo
+      time: "5:00 PM - 5:45 PM"
+      column: 7
+      start_hour: 17
+      start_minute: 0
+      end_hour: 17
+      end_minute: 45
+
     ## 6:00 PM
 
-    - subject : "Closing remarks"
-      venue : "FIXME"
-      time : "6:00 PM - 6:15 PM"
-      column: 7
+    - subject: Closing remarks
+      venue: Big Tex
+      time: "6:00 PM - 6:15 PM"
+      column: 3
       start_hour: 18
       start_minute: 0
       end_hour: 18
       end_minute: 15
 
-    ## 8:00 PM
-
     - subject: "TXLF After Party"
       talk_link: "party/"
-      venue: Lavaca Street Bar - Rock Rose
-      time: 7:30 PM - 10:00 PM
-      column: -1
+      venue: Lavaca Street Bar
+      time: "7:30 PM - 10:00 PM"
+      column: 8
       start_hour: 19
       start_minute: 30
       end_hour: 22

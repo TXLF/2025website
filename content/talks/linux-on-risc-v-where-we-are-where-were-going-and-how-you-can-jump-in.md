@@ -3,7 +3,7 @@ title: "Linux on RISC-V: Where we are, where we're going, and how you can jump i
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: Saturday, October 4th (time TBD)
+when: "Saturday, October 4th, 5:00 PM - 5:45 PM"
 where: Balcones
 speakers:
   - name: Carl Perry

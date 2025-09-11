@@ -3,7 +3,7 @@ title: "Lessons They Don't Teach You in School: A Year in High-Performance Compu
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: Saturday, October 4th (time TBD)
+when: "Saturday, October 4th, 10:00 AM - 10:45 AM"
 where: Bevo
 speakers:
   - name: Sai Durga Rithvik Oruganti

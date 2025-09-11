@@ -3,7 +3,7 @@ title: Lifting the Documentation Burden with Open Source Tools and Resources
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: Saturday, October 4th (time TBD)
+when: "Saturday, October 4th, 2:00 PM - 2:45 PM"
 where: Bevo
 speakers:
   - name: Michael Troutman

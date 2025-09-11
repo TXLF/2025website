@@ -3,7 +3,7 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 title: Verified Debian Packaging at Scale
 format: Presentation
-when: Saturday, October 4th (time TBD)
+when: "Saturday, October 4th, 2:00 PM - 2:45 PM"
 where: Big Tex
 speakers:
   - name: Chris Arges
