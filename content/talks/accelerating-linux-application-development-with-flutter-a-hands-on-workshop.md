@@ -3,7 +3,7 @@ title: "Accelerating Linux Application Development with Flutter: A Hands-on Work
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Workshop
-when: Friday, October 3rd (time TBD)
+when: Friday, October 3rd, 1:30 - 4:30 PM
 where: Bevo
 speakers:
   - name: Ryan Edge

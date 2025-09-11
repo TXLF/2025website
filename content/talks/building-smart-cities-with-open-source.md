@@ -3,7 +3,7 @@ title: "Building Smart Cities with Open Source: How Linux-Based Distributed Syst
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: Saturday, October 4th (time TBD)
+when: Saturday, October 4th, 3:00 - 3:45 PM
 where: Stadium
 speakers:
   - name: Mayur Bhandari

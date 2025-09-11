@@ -1,9 +1,9 @@
----
+--
 title: "Keep it Local: Intro to learning Kubernetes using minikube"
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Workshop
-when: Friday, October 3rd (time TBD)
+when: Friday, October 3rd, 1:30 - 4:30 PM
 where: Stadium
 speakers:
   - name: Alex Juarez
@@ -28,7 +28,8 @@ to end.
 What I want you to walk away with:
 
 - Understand what Minikube is and how it fits into the Kubernetes ecosystem.
-- Learn how to install, configure, and start a local Kubernetes cluster using Minikube.
+- Learn how to install, configure, and start a local Kubernetes cluster using 
+Minikube.
 - Learn how to deploy and manage workloads locally.
 - Understand limitations of using Minikube vs deploying in production.
 
