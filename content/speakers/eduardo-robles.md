@@ -11,8 +11,8 @@ social:
     link: https://eduardorobles.com/
   - icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/hello-im-eduardo
-  - icon: fa-brands fa-mastadon
-    link: https://github.com/eduardo-robles
+  - icon: fa-brands fa-mastodon
+    link: https://infosec.exchange/@tacosandlinux_
   - icon: fa-brands fa-github
     link: https://github.com/eduardo-robles
 
