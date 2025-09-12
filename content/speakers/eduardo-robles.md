@@ -5,15 +5,16 @@ page_header_bg: images/background/page-title-bg.jpg
 designation: "Cybersecurity Analyst"
 image: images/speakers/eduardo-robles.jpg
 current: true
-featured: true
 
 social:
   - icon: fa-solid fa-globe
     link: https://eduardorobles.com/
   - icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/hello-im-eduardo
-  - icon: fa-brands fa-x-twitter
-    link: https://x.com/tacosandlinux_
+  - icon: fa-brands fa-mastadon
+    link: https://github.com/eduardo-robles
+  - icon: fa-brands fa-github
+    link: https://github.com/eduardo-robles
 
 talks:
   - title: "I got Malware, BTW. A quick look at the rising trend of Linux Malware."
