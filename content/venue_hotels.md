@@ -11,6 +11,6 @@ ignore_header: true
 
 ### Hotels for _Texas Linux Festival_
 
-TXLF has arranged a discounted hotel block at the [Marriot Element Hotel](https://www.marriott.com/event-reservations/reservation-link.mi?id=1757085354036&key=GRP&app=resvlink).  Element is walking distance to TXLF and available at a rate of $149/night.
-
-If our room block sells out, the Commons Conference Center has list of alternative recomendations](https://commons.utexas.edu/meetings-and-events/area-hotels).  
+TXLF has arranged a discounted hotel block at the _**[Marriot Element Hotel](https://www.marriott.com/event-reservations/reservation-link.mi?id=1757085354036&key=GRP&app=resvlink)**_.
+Element is walking distance to TXLF and available at a rate of $144/night.
+If our room block sells out, the Commons Conference Center has list of _**[alternative recomendations](https://commons.utexas.edu/meetings-and-events/area-hotels)**_.
