@@ -806,25 +806,25 @@ sponsors:
 
   - name: "Exhibitors"
     sponsor_item:
-  #    - name: "Free Software Foundation"
-  #      logo: "images/sponsors/fsf.png"
-  #      link: "https://fsf.org"
-  #
       - name: "Austin RISC-V"
         logo: "images/sponsors/risc-v.webp"
         link: "https://austinriscv.club/"
-  #
+
+      - name: Fedora
+        logo: images/sponsors/fedora.svg
+        link: https://fedoraproject.org
+
+      - name: CentOS
+        logo: images/sponsors/centos.svg
+        link: https://centos.org
+
+      - name: Free Software Foundation
+        logo: images/sponsors/fsf.png
+        link: https://fsf.org
+
   #    - name: "PyTexas"
   #      logo: "images/sponsors/pytexas.png"
   #      link: "https://www.pytexas.org"
-  #
-  #    - name: "Fedora"
-  #      logo: "images/sponsors/fedora.svg"
-  #      link: "https://fedoraproject.org"
-  #
-  #    - name: "CentOS"
-  #      logo: "images/sponsors/centos.svg"
-  #      link: "centos.svg"
   #
   - name: "Media & Swag"
     sponsor_item:
