@@ -264,11 +264,11 @@ tab:
       end_hour: 10
       end_minute: 45
 
-    - speaker: Darin Pope
-      speaker_image: images/speakers/darin-pope-thumb.jpg
-      speaker_link: speakers/darin-pope/
-      talk_link: talks/best-practices-for-managing-jenkins/
-      subject: Best Practices for Managing Jenkins
+    - speaker: "Swetha Garaga" 
+      speaker_image: images/speakers/swetha-garaga-thumb.jpg
+      speaker_link: speakers/swetha-garaga/
+      talk_link: talks/human-centered-automation-equity-and-efficiency-in-modern-warehousing/
+      subject: "Human‑Centered Automation: Equity and Efficiency in Modern Warehousing"
       venue: Lil Tex
       time: "10:00 AM - 10:45 AM"
       column: 4
