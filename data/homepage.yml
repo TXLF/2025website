@@ -331,6 +331,19 @@ tab:
       end_hour: 11
       end_minute: 45
 
+    - speaker: Mike Schwartz
+      speaker_image: images/speakers/mike-schwartz-thumb.jpg
+      speaker_link: speakers/mike-schwartz/
+      talk_link: talks/security-that-scales-how-cedar-is-rewriting-the-rules-of-access/
+      subject: "Security That Scales: How Cedar is Rewriting the Rules of Access"
+      venue: Stadum
+      time: "11:00 AM - 11:45 AM"
+      column: 6
+      start_hour: 11
+      start_minute: 0
+      end_hour: 11
+      end_minute: 45
+
     - speaker: Eduardo Robles
       speaker_image: images/speakers/eduardo-robles-thumb.jpg
       speaker_link: speakers/eduardo-robles/
