@@ -4,7 +4,7 @@ description: "Texas Linux Fest 2025"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Developer Advocate"
 image: "images/speakers/darin-pope.jpg"
-current: true
+current: false
 
 social:
   - icon: "fa-solid fa-globe"
@@ -18,7 +18,7 @@ social:
 talks:
   - title: "Best Practices for Managing Jenkins"
     link: "talks/best-practices-for-managing-jenkins/"
-    current: true
+    current: false
 
 ---
 
