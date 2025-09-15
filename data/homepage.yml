@@ -277,6 +277,19 @@ tab:
       end_hour: 10
       end_minute: 45
 
+    - speaker: "Bramhanand Lingala"
+      speaker_image: images/speakers/bramhanand-lingala-thumb.jpg
+      speaker_link: speakers/bramhanand-lingala/
+      talk_link: talks/adopting-nosql-at-scale-strategic-models-performance-trade-offs-and-integration-pitfalls/
+      subject: "Adopting NoSQL at Scale: Strategic Models, Performance Trade-Offs, and Integration Pitfalls"
+      venue: Balcones
+      time: "10:00 AM - 10:45 AM"
+      column: 5
+      start_hour: 10
+      start_minute: 0
+      end_hour: 10
+      end_minute: 45
+
     - speaker: Sai Durga Rithvik Oruganti
       speaker_image: images/speakers/sai-durga-rithvik-oruganti-thumb.jpg
       speaker_link: speakers/sai-durga-rithvik-oruganti/
