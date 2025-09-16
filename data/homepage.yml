@@ -82,15 +82,6 @@ tab:
 
     ## 9:00 AM
 
-    - subject: TXLF Expo Booths
-      venue: Atrium
-      column: 2
-      time: "9:00 AM - 4:30 PM"
-      start_hour: 9
-      start_minute: 0
-      end_hour: 16
-      end_minute: 30
-
     - speaker: Jon Roberts
       speaker_image: images/speakers/jon-roberts-thumb.jpg
       speaker_link: speakers/jon-roberts/
@@ -116,6 +107,15 @@ tab:
       start_minute: 0
       end_hour: 10
       end_minute: 30
+
+    - subject: TXLF Expo Booths
+      venue: Atrium
+      column: 2
+      time: "10:00 AM - 5:00 PM"
+      start_hour: 10
+      start_minute: 0
+      end_hour: 17
+      end_minute: 0
 
     - speaker: Sean Thrailkill
       speaker_image: images/speakers/sean-thrailkill-thumb.jpg
@@ -245,10 +245,10 @@ tab:
     - subject: TXLF Expo Booths
       venue: Atrium
       column: 2
-      time: "10:00 AM - 6:00 PM"
+      time: "10:00 AM - 5:00 PM"
       start_hour: 10
       start_minute: 0
-      end_hour: 18
+      end_hour: 17
       end_minute: 0
 
     - speaker: Ignat Korchagin
