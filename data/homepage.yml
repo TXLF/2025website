@@ -680,28 +680,28 @@ pricing:
     price_per: "Person"
     button_link: "https://register.linuxfests.org/reg6/"
     features:
+    - "Available until Sep 12"
+    - "Full access to the event"
+    - "Helps make TXLF possible!"
+    - "TXLF swag pack"
+    
+  - name : "Supporter"
+    price : "100.00"
+    price_per : "Person"
+    button_link : "https://register.linuxfests.org/reg6/"
+    features:
     - "Full access to the event"
     - "Helps make TXLF possible!"
     - "TXLF swag pack"
 
-  #- name : "Supporter"
-  #  price : "100.00"
-  #  price_per : "Person"
-  #  button_link : "https://register.linuxfests.org/reg6/"
-  #  features:
-  #  - "Full access to the event"
-  #  - "Helps make TXLF possible!"
-  #  - "TXLF swag pack"
-
-  #- name : "Enthusiast"
-  #  price : "50.00"
-  #  price_per : "Person"
-  #  button_link : "https://register.linuxfests.org/reg6/"
-  #  features:
-  #  - "Full access to the event"
-  #  - "Helps make TXLF possible!"
-  #  - "Allows students, hobbyists, retired, unemployed, etc. to access this community resource. If you're attending professionally, please consider the 'Supporter' level."
-  #  - "Does not include the swag pack"
+  - name : "Enthusiast"
+    price : "75.00"
+    price_per : "Person"
+    button_link : "https://register.linuxfests.org/reg6/"
+    features:
+    - "Full access to the event"
+    - "Allows students, hobbyists, retired, unemployed, etc. to access this community resource. If you're attending professionally, please consider the 'Supporter' level."
+    - "Does not include the swag pack"
 
 
 sponsorship_pricing:
