@@ -240,6 +240,18 @@ tab:
 
     ## 9:00 AM
 
+    - speaker: Dustin Kirkland
+      speaker_image: images/speakers/dustin-kirkland-thumb.jpg
+      speaker_link: speakers/dustin-kirkland/
+      subject: TXLF Keynote
+      venue: Big Tex
+      time: "9:00 AM - 9:45 AM"
+      column: 3
+      start_hour: 9
+      start_minute: 0
+      end_hour: 9
+      end_minute: 45
+
     ## 10:00 AM
 
     - subject: TXLF Expo Booths
