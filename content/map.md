@@ -9,7 +9,7 @@ map_image: "images/fixme-map.png"
 
 ### Map for _Texas Linux Festival_
 
-The conference will be held at the Commons Conference Center at the UT Austin Campus from Oct 3-4, 2025.
+The conference will be held at the Commons Conference Center at the UT Research Campus from Oct 3-4, 2025.
 
 The address is 2901 Read Granberry Trail, Austin, TX 78758
 
