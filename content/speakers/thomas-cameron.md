@@ -5,7 +5,6 @@ page_header_bg: images/background/page-title-bg.jpg
 designation: Senior Principal Solution Architect
 image: images/speakers/thomas-cameron.jpg
 current: true
-featured: true
 
 social:
   - icon: fa-brands fa-linkedin
