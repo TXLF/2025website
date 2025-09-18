@@ -108,6 +108,19 @@ tab:
       end_hour: 10
       end_minute: 30
 
+    - speaker: Ken Crandall
+      speaker_image: images/speakers/ken-crandall-thumb.jpg
+      speaker_link: speakers/ken-crandall/
+      talk_link: talks/build-your-own-cloud-batteries-included/
+      subject: "Build Your Own Cloud: Batteries Included! (Sponsor: Rackspace)"
+      venue: Big Tex
+      time: "9:15 AM - 11:15 AM"
+      column: 3
+      start_hour: 9
+      start_minute: 15
+      end_hour: 11
+      end_minute: 15
+
     - subject: TXLF Expo Booths
       venue: Atrium
       column: 2
@@ -127,6 +140,19 @@ tab:
       column: 7
       start_hour: 10
       start_minute: 30
+      end_hour: 12
+      end_minute: 0
+
+    - speaker: Josh Villarreal
+      speaker_image: images/speakers/josh-villarreal-thumb.jpg
+      speaker_link: speakers/josh-villarreal/
+      talk_link: talks/from-open-source-to-open-talk-meet-the-experts/
+      subject: "From Open Source to Open Talk: Meet the Experts (Sponsor: Rackspace)"
+      venue: Big Tex
+      time: "11:15 AM - 12:00 PM"
+      column: 3
+      start_hour: 11
+      start_minute: 15
       end_hour: 12
       end_minute: 0
 
@@ -181,6 +207,19 @@ tab:
       end_hour: 15
       end_minute: 0
 
+    - speaker: Ken Crandall
+      speaker_image: images/speakers/ken-crandall-thumb.jpg
+      speaker_link: speakers/ken-crandall/
+      talk_link: talks/build-your-own-cloud-batteries-included/
+      subject: "Build Your Own Cloud: Batteries Included! (Sponsor: Rackspace)"
+      venue: Big Tex
+      time: "1:45 PM - 3:45 PM"
+      column: 3
+      start_hour: 13
+      start_minute: 45
+      end_hour: 15
+      end_minute: 45
+
     ## 2:00 PM
 
     - speaker: Raul Leite
@@ -223,6 +262,19 @@ tab:
       start_minute: 30
       end_hour: 16
       end_minute: 15
+
+    - speaker: Josh Villarreal
+      speaker_image: images/speakers/josh-villarreal-thumb.jpg
+      speaker_link: speakers/josh-villarreal/
+      talk_link: talks/from-open-source-to-open-talk-meet-the-experts/
+      subject: "From Open Source to Open Talk: Meet the Experts (Sponsor: Rackspace)"
+      venue: Big Tex
+      time: "3:45 AM - 4:30 PM"
+      column: 3
+      start_hour: 15
+      start_minute: 45
+      end_hour: 16
+      end_minute: 30
 
     - subject: Lightning talks
       venue: Big Tex
