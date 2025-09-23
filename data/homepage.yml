@@ -82,6 +82,19 @@ tab:
 
     ## 9:00 AM
 
+    - speaker: Matthew Boehm
+      speaker_image: images/speakers/matthew-boehm-thumb.jpg
+      speaker_link: speakers/matthew-boehm/
+      talk_link: talks/valkey-101-keep-calm-and-fork-on/
+      subject: "Valkey 101: Keep Calm, and Fork On (Sponsor: Percona)"
+      venue: Balcones
+      time: "9:00 AM - 10:30 AM"
+      column: 5
+      start_hour: 9
+      start_minute: 0
+      end_hour: 10
+      end_minute: 30
+
     - speaker: Jon Roberts
       speaker_image: images/speakers/jon-roberts-thumb.jpg
       speaker_link: speakers/jon-roberts/
@@ -128,6 +141,19 @@ tab:
       start_hour: 10
       start_minute: 0
       end_hour: 17
+      end_minute: 0
+
+    - speaker: Matthew Boehm
+      speaker_image: images/speakers/matthew-boehm-thumb.jpg
+      speaker_link: speakers/matthew-boehm/
+      talk_link: talks/false-positives-real-gains-valkeys-probabilistic-filters/
+      subject: "False Positives, Real Gains: Valkey's Probabilistic Filters (Sponsor: Percona)"
+      venue: Balcones
+      time: "10:30 AM - 12:00 PM"
+      column: 5
+      start_hour: 10
+      start_minute: 30
+      end_hour: 12
       end_minute: 0
 
     - speaker: Sean Thrailkill
