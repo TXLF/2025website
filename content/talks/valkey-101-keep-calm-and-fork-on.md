@@ -10,6 +10,9 @@ speakers:
   - name: Matthew Boehm
     image: images/speakers/matthew-boehm.jpg
     link: speakers/matthew-boehm/
+  - name: Alastair Turner
+    image: images/speakers/alastair-turner.jpg
+    link: speakers/alastair-turner/
 ---
 
 Curious about Valkey?  Come learn what this open-source fork of Redis is all
