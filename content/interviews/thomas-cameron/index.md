@@ -1,7 +1,10 @@
 ---
-title : "Interview: Thomas Cameron x Nathan Willis"
-host: NW.jpg
-int: TC.jpg
+host:
+  image: NW.jpg
+  name: Nathan Willis
+int:
+  image: TC.jpg
+  name: Thomas Cameron
 date: 2025-09-23
 description : "Texas Linux Fest 2025 - Interview: Thomas Cameron x Nathan Willis"
 draft : false
