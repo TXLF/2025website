@@ -21,7 +21,7 @@
         <div class="card h-100 shadow-sm">
           <div class="card-body">
             <h5 class="card-title">
-              <a href="{{ .Permalink }}" class="text-decoration-none">{{ .Title }}</a>
+              <a href="{{ .Permalink }}" class="text-decoration-none">Interview: {{ .Params.int.name }} x {{ .Params.host.name }}</a>
             </h5>
             <p class="text-muted small">{{ .Date.Format "January 2, 2006" }}</p>
             {{ if .Params.description }}
@@ -31,7 +31,7 @@
             <!-- Interview participants -->
             <div class="row mt-3">
               {{ if .Params.host }}
-              {{ $hostImage := .Resources.GetMatch .Params.host }}
+              {{ $hostImage := .Resources.GetMatch .Params.host.image }}
               {{ if $hostImage }}
               <div class="col-6 text-center">
                 <div class="mb-2">
@@ -39,12 +39,12 @@
                        alt="Host" class="img-fluid rounded-circle"
                        style="width: 60px; height: 60px; object-fit: cover;">
                 </div>
-                <small class="text-muted">Host</small>
+                <small class="text-muted"><strong>Host:</strong> {{ .Params.host.name }}</small>
               </div>
               {{ end }}
               {{ end }}
               {{ if .Params.int }}
-              {{ $intImage := .Resources.GetMatch .Params.int }}
+              {{ $intImage := .Resources.GetMatch .Params.int.image }}
               {{ if $intImage }}
               <div class="col-6 text-center">
                 <div class="mb-2">
@@ -52,7 +52,7 @@
                        alt="Interviewee" class="img-fluid rounded-circle"
                        style="width: 60px; height: 60px; object-fit: cover;">
                 </div>
-                <small class="text-muted">Interviewee</small>
+                <small class="text-muted"><strong>Interviewee:</strong> {{ .Params.int.name }}</small>
               </div>
               {{ end }}
               {{ end }}

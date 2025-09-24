@@ -10,14 +10,14 @@
     <div class="row mb-5">
       <div class="col-lg-10 mx-auto">
         <div class="text-center mb-4">
-          <h1 class="mb-3">{{ .Title }}</h1>
+          <h1 class="mb-3">Interview: {{ .Params.int.name }} x {{ .Params.host.name }}</h1>
           <p class="text-muted">{{ .Date.Format "January 2, 2006" }}</p>
         </div>
 
         <!-- Participant Images -->
         <div class="row justify-content-center mb-4">
           {{ if .Params.host }}
-          {{ $hostImage := .Resources.GetMatch .Params.host }}
+          {{ $hostImage := .Resources.GetMatch .Params.host.image }}
           {{ if $hostImage }}
           <div class="col-md-4 col-6 text-center">
             <div class="mb-3">
@@ -25,13 +25,13 @@
                    alt="Host" class="img-fluid rounded-circle shadow"
                    style="width: 120px; height: 120px; object-fit: cover;">
             </div>
-            <h5 class="text-muted">Host</h5>
+            <h5 class="text-muted"><strong>Host</strong><br /> {{ .Params.host.name }}</h5>
           </div>
           {{ end }}
           {{ end }}
 
           {{ if .Params.int }}
-          {{ $intImage := .Resources.GetMatch .Params.int }}
+          {{ $intImage := .Resources.GetMatch .Params.int.image }}
           {{ if $intImage }}
           <div class="col-md-4 col-6 text-center">
             <div class="mb-3">
@@ -39,7 +39,7 @@
                    alt="Interviewee" class="img-fluid rounded-circle shadow"
                    style="width: 120px; height: 120px; object-fit: cover;">
             </div>
-            <h5 class="text-muted">Interviewee</h5>
+            <h5 class="text-muted"><strong>Interviewee</strong><br /> {{ .Params.int.name }}</h5>
           </div>
           {{ end }}
           {{ end }}
@@ -54,13 +54,103 @@
           {{ .Content | markdownify }}
         </div>
 
+        <!-- Social Media Share -->
+        <div class="row mt-5">
+          <div class="col-12">
+            <div class="bg-light p-4 rounded">
+              <h5 class="mb-3 text-center">Share This Interview</h5>
+              <div class="d-flex justify-content-center flex-wrap gap-3">
+                <!-- Twitter/X -->
+                <a href="https://twitter.com/intent/tweet?url={{ .Permalink | absURL }}&text={{ .Title | urlquery }}&via=texaslinuxfest"
+                   target="_blank" class="btn btn-outline-dark btn-sm">
+                  <i class="fa-brands fa-twitter"></i> Twitter
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | absURL }}"
+                   target="_blank" class="btn btn-outline-primary btn-sm">
+                  <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | absURL }}"
+                   target="_blank" class="btn btn-outline-primary btn-sm">
+                  <i class="fa-brands fa-facebook"></i> Facebook
+                </a>
+
+                <!-- Reddit -->
+                <a href="https://reddit.com/submit?url={{ .Permalink | absURL }}&title={{ .Title | urlquery }}"
+                   target="_blank" class="btn btn-outline-warning btn-sm">
+                  <i class="fa-brands fa-reddit"></i> Reddit
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:?subject={{ .Title | urlquery }}&body=Check out this interview from Texas Linux Fest 2025: {{ .Permalink | absURL }}"
+                   class="btn btn-outline-secondary btn-sm">
+                  <i class="fa fa-envelope"></i> Email
+                </a>
+
+                <!-- Copy Link -->
+                <button onclick="copyToClipboard('{{ .Permalink | absURL }}')"
+                        class="btn btn-outline-success btn-sm" id="copyBtn">
+                  <i class="fa fa-copy"></i> Copy Link
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Back to Interviews -->
-        <div class="text-center mt-5">
+        <div class="text-center mt-4">
           <a href="/interviews/" class="btn btn-outline-primary">← Back to All Interviews</a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Copy to Clipboard JavaScript -->
+<script>
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(function() {
+    // Success - show feedback
+    const btn = document.getElementById('copyBtn');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<i class="fa fa-check"></i> Copied!';
+    btn.classList.remove('btn-outline-success');
+    btn.classList.add('btn-success');
+
+    setTimeout(function() {
+      btn.innerHTML = originalText;
+      btn.classList.remove('btn-success');
+      btn.classList.add('btn-outline-success');
+    }, 2000);
+  }, function(err) {
+    // Fallback for older browsers
+    console.error('Could not copy text: ', err);
+
+    // Create temporary input element
+    const tempInput = document.createElement('input');
+    tempInput.value = text;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempInput);
+
+    // Show feedback
+    const btn = document.getElementById('copyBtn');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<i class="fa fa-check"></i> Copied!';
+    btn.classList.remove('btn-outline-success');
+    btn.classList.add('btn-success');
+
+    setTimeout(function() {
+      btn.innerHTML = originalText;
+      btn.classList.remove('btn-success');
+      btn.classList.add('btn-outline-success');
+    }, 2000);
+  });
+}
+</script>
 
 {{ end }}
