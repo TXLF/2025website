@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+{{ if not .Params.Ignore_header }}
+{{ partial "page-header.html" . }}
+{{ end }}
+
+<section class="section">
+  <div class="container">
+    <!-- Interview Header with Participants -->
+    <div class="row mb-5">
+      <div class="col-lg-10 mx-auto">
+        <div class="text-center mb-4">
+          <h1 class="mb-3">{{ .Title }}</h1>
+          <p class="text-muted">{{ .Date.Format "January 2, 2006" }}</p>
+        </div>
+
+        <!-- Participant Images -->
+        <div class="row justify-content-center mb-4">
+          {{ if .Params.host }}
+          {{ $hostImage := .Resources.GetMatch .Params.host }}
+          {{ if $hostImage }}
+          <div class="col-md-4 col-6 text-center">
+            <div class="mb-3">
+              <img src="{{ $hostImage.RelPermalink }}"
+                   alt="Host" class="img-fluid rounded-circle shadow"
+                   style="width: 120px; height: 120px; object-fit: cover;">
+            </div>
+            <h5 class="text-muted">Host</h5>
+          </div>
+          {{ end }}
+          {{ end }}
+
+          {{ if .Params.int }}
+          {{ $intImage := .Resources.GetMatch .Params.int }}
+          {{ if $intImage }}
+          <div class="col-md-4 col-6 text-center">
+            <div class="mb-3">
+              <img src="{{ $intImage.RelPermalink }}"
+                   alt="Interviewee" class="img-fluid rounded-circle shadow"
+                   style="width: 120px; height: 120px; object-fit: cover;">
+            </div>
+            <h5 class="text-muted">Interviewee</h5>
+          </div>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Interview Content -->
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="content interview-content">
+          {{ .Content | markdownify }}
+        </div>
+
+        <!-- Back to Interviews -->
+        <div class="text-center mt-5">
+          <a href="/interviews/" class="btn btn-outline-primary">← Back to All Interviews</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

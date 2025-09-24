@@ -159,6 +159,12 @@ hasChildren = true
 
   [[menu.main]]
   parent = "Schedule"
+  name = "Interviews"
+  url = "/interviews"
+  weight = 10
+
+  [[menu.main]]
+  parent = "Schedule"
   name = "List view"
   url = "/schedule"
   weight = 10
