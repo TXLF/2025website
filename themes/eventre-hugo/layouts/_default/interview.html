@@ -17,25 +17,31 @@
         <!-- Participant Images -->
         <div class="row justify-content-center mb-4">
           {{ if .Params.host }}
+          {{ $hostImage := .Resources.GetMatch .Params.host }}
+          {{ if $hostImage }}
           <div class="col-md-4 col-6 text-center">
             <div class="mb-3">
-              <img src="{{ printf "%s/%s" .RelPermalink .Params.host | absURL }}"
+              <img src="{{ $hostImage.RelPermalink }}"
                    alt="Host" class="img-fluid rounded-circle shadow"
                    style="width: 120px; height: 120px; object-fit: cover;">
             </div>
             <h5 class="text-muted">Host</h5>
           </div>
           {{ end }}
+          {{ end }}
 
           {{ if .Params.int }}
+          {{ $intImage := .Resources.GetMatch .Params.int }}
+          {{ if $intImage }}
           <div class="col-md-4 col-6 text-center">
             <div class="mb-3">
-              <img src="{{ printf "%s/%s" .RelPermalink .Params.int | absURL }}"
+              <img src="{{ $intImage.RelPermalink }}"
                    alt="Interviewee" class="img-fluid rounded-circle shadow"
                    style="width: 120px; height: 120px; object-fit: cover;">
             </div>
             <h5 class="text-muted">Interviewee</h5>
           </div>
+          {{ end }}
           {{ end }}
         </div>
       </div>
