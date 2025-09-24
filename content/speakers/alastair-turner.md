@@ -23,3 +23,4 @@ talks:
     current: true
 ---
 
+Since 1995, Alastair has administered, programmed and supported all things database, from Access to Universe, settling on Postgres around 2002. He recently left the dark side of vendor presales and currently works in community advocacy at Percona.
