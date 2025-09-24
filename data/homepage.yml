@@ -328,7 +328,7 @@ tab:
       end_hour: 10
       end_minute: 45
 
-    - speaker: "Swetha Garaga" 
+    - speaker: "Swetha Garaga"
       speaker_image: images/speakers/swetha-garaga-thumb.jpg
       speaker_link: speakers/swetha-garaga/
       talk_link: talks/human-centered-automation-equity-and-efficiency-in-modern-warehousing/
@@ -706,6 +706,13 @@ tab:
       start_minute: 30
       end_hour: 22
       end_minute: 0
+
+############ Interviews ######################
+interviews:
+  enable: true
+  title: "Interviews"
+  content: "TXLF 2025 Interviews"
+
 
 ############ Registration ####################
 registration:
