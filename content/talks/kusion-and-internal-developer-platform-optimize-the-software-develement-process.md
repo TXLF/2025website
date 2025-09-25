@@ -7,7 +7,7 @@ when: "Saturday, October 4th, 4:00 PM - 4:45 PM"
 where: Stadium
 speakers:
   - name: "Hoang Dinh Nguyen"
-    image: images/speakers/houang-dinh-nguyen.jpg
+    image: images/speakers/hoang-dinh-nguyen.jpg
     link: speakers/hoang-dinh-nguyen/
 ---
 

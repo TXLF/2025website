@@ -633,8 +633,8 @@ tab:
       end_minute: 45
 
     - speaker: Hoang Dinh Nguyen
-      speaker_image: images/speakers/houang-dinh-nguyen-thumb.jpg
-      speaker_link: speakers/houang-dinh-nguyen/
+      speaker_image: images/speakers/hoang-dinh-nguyen-thumb.jpg
+      speaker_link: speakers/hoang-dinh-nguyen/
       talk_link: talks/kusion-and-internal-developer-platform-optimize-the-software-develement-process/
       subject: "Kusion and Internal Developer Platform: Optimize the Software Development Process"
       venue: Stadium
