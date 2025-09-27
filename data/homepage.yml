@@ -447,11 +447,11 @@ tab:
       end_hour: 11
       end_minute: 45
 
-    - speaker: Joshua Lee
-      speaker_image: images/speakers/joshua-lee-thumb.jpg
-      speaker_link: speakers/joshua-lee/
-      talk_link: talks/magical-mystery-tour-a-roundup-of-observability-datastores/
-      subject: "Magical Mystery Tour: A Roundup of Observability Datastores"
+    - speaker: Matthew Penaroza
+      speaker_image: images/speakers/matthew-penaroza-thumb.jpg
+      speaker_link: speakers/matthew-penaroza/
+      talk_link: talks/mastering-database-selection-for-system-design/
+      subject: Mastering Database Selection for System Design
       venue: Balcones
       time: "11:00 AM - 11:45 AM"
       column: 5
@@ -524,6 +524,19 @@ tab:
       end_hour: 14
       end_minute: 45
 
+    - speaker: Mario Limonciello
+      speaker_image: images/speakers/mario-limonciello-thumb.jpg
+      speaker_link: speakers/mario-limonciello/
+      talk_link: talks/steamos-on-the-lenovo-go-s/
+      subject: SteamOS™ on the Lenovo™ Go S
+      venue: Balcones
+      time: 2:00 PM - 2:45 PM
+      column: 5
+      start_hour: 14
+      start_minute: 0
+      end_hour: 14
+      end_minute: 45
+
     - speaker: Anupama Pathirage
       speaker_image: images/speakers/anupama-pathirage-thumb.jpg
       speaker_link: speakers/anupama-pathirage/
@@ -578,11 +591,11 @@ tab:
       end_hour: 15
       end_minute: 45
 
-    - speaker: Matthew Penaroza
-      speaker_image: images/speakers/matthew-penaroza-thumb.jpg
-      speaker_link: speakers/matthew-penaroza/
-      talk_link: talks/mastering-database-selection-for-system-design/
-      subject: Mastering Database Selection for System Design
+    - speaker: Carl Perry
+      speaker_image: images/speakers/carl-perry-thumb.jpg
+      speaker_link: speakers/carl-perry/
+      talk_link: talks/linux-on-risc-v-where-we-are-where-were-going-and-how-you-can-jump-in/
+      subject: "Linux on RISC-V: Where we are, where we're going, and how you can jump in"
       venue: Balcones
       time: "3:00 PM - 3:45 PM"
       column: 5
@@ -645,11 +658,11 @@ tab:
       end_hour: 16
       end_minute: 45
 
-    - speaker: Mario Limonciello
-      speaker_image: images/speakers/mario-limonciello-thumb.jpg
-      speaker_link: speakers/mario-limonciello/
-      talk_link: talks/steamos-on-the-lenovo-go-s/
-      subject: SteamOS™ on the Lenovo™ Go S
+    - speaker: Joshua Lee
+      speaker_image: images/speakers/joshua-lee-thumb.jpg
+      speaker_link: speakers/joshua-lee/
+      talk_link: talks/magical-mystery-tour-a-roundup-of-observability-datastores/
+      subject: "Magical Mystery Tour: A Roundup of Observability Datastores"
       venue: Balcones
       time: "4:00 PM - 4:45 PM"
       column: 5
@@ -712,11 +725,11 @@ tab:
       end_hour: 17
       end_minute: 45
 
-    - speaker: Carl Perry
-      speaker_image: images/speakers/carl-perry-thumb.jpg
-      speaker_link: speakers/carl-perry/
-      talk_link: talks/linux-on-risc-v-where-we-are-where-were-going-and-how-you-can-jump-in/
-      subject: "Linux on RISC-V: Where we are, where we're going, and how you can jump in"
+    - speaker: Steve Anness
+      speaker_image: images/speakers/steve-anness-thumb.png
+      speaker_link: speakers/steve-anness/
+      talk_link: talks/auto-instrument-all-the-things-with-beyla/
+      subject: Auto-instrument all the things with Beyla
       venue: Balcones
       time: "5:00 PM - 5:45 PM"
       column: 5
