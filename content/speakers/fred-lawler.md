@@ -15,6 +15,9 @@ social:
 talks:
   - title: "connect() - why you so slow?!"
     link: "talks/connect-why-you-so-slow/"
+  - title: Containers without Docker
+    link: talks/containers-without-docker/
+    current: true
   - title: Verified Debian Packaging at Scale
     link: talks/verified-debian-packaging-at-scale/
     current: true
