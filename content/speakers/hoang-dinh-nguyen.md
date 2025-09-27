@@ -3,7 +3,7 @@ title: "Hoang Dinh Nguyen"
 description: "Texas Linux Fest 2025"
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: "Platform Engineer"
-image: "images/speakers/houang-dinh-nguyen.jpg"
+image: "images/speakers/hoang-dinh-nguyen.jpg"
 current: true
 
 social:
