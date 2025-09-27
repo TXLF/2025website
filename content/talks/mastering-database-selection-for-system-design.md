@@ -3,7 +3,7 @@ title: Mastering Database Selection for System Design
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: "Saturday, October 4th, 3:00 PM - 3:45 PM"
+when: Saturday, October 4th, 11:00 AM - 11:45 AM
 where: Balcones
 speakers:
   - name: Matthew Penaroza
