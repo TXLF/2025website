@@ -2,7 +2,7 @@
 title: Brett Estrade
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
-designation: Independent Contractor
+designation: Chairman, Science Perl Committee; Co-Editor Science Perl Journal
 image: images/speakers/brett-estrade.jpg
 current: true
 
@@ -20,14 +20,13 @@ talks:
     current: true
 ---
 
-Brett Estrade is an experienced software developer residing in Houston; an
-open-source enthusiast, best known for his work with the Perl programming
-language.  With a strong foundation in system-level programming, HPC, and a
-passion for automation; Estrade has contributed to various Perl modules and
-community tools.  He has a reputation for promoting practical uses of Perl in
-data processing, DevOps workflows, and networked applications.  In addition to
-programming, Brett is an advocate for open knowledge and frequently shares
-insights on operational automation, scripting, and systems design.  He is a
-founding member and chairman of the Science Perl Committee; co-editor of the
-Science Perl Journal, and co-organized of the bi-annual Perl Community
-Conference held in Austin in July and December of each year.
+**Brett Estrade** is a Houston-based software developer and open-source
+advocate, best known for his contributions to the Perl programming language.
+With expertise in system-level programming, high-performance computing, and
+automation, he has developed and maintained Perl modules and community tools
+that emphasize practical solutions for data processing, DevOps, and networked
+systems.  Brett is also a strong proponent of open knowledge, regularly sharing
+insights on scripting, operational automation, and systems design.  He serves
+as founding member and chairman of the Science Perl Committee, co-editor of the
+Science Perl Journal, and co-organizer of the biannual Perl Community
+Conference in Austin.
