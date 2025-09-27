@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: "images/background/page-title-bg.jpg"
 designation: Principal Solutions Architect
 image: "images/speakers/paul-novarese.jpg"
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -21,7 +20,6 @@ talks:
     link: "talks/the-legacy-of-log4shell-and-the-future-of-devsecops/"
   - title: "Among Us: They're in the Open Source Supply Chain"
     link: talks/among-us-theyre-in-the-open-source-supply-chain/
-    current: true
 ---
 
 Paul Novarese is a Principal Solutions Engineer at Hunted Labs.  He has been
