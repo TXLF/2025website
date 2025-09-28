@@ -380,6 +380,19 @@ tab:
       end_hour: 10
       end_minute: 45
 
+    - speaker: Fred Lawler
+      speaker_image: images/speakers/fred-lawler-thumb.jpg
+      speaker_link: speakers/fred-lawler/
+      talk_link: talks/containers-without-docker/
+      subject: "Containers without Docker"
+      venue: Stadum
+      time: "10:00 AM - 10:45 AM"
+      column: 6
+      start_hour: 10
+      start_minute: 0
+      end_hour: 10
+      end_minute: 45
+
     - speaker: Sai Durga Rithvik Oruganti
       speaker_image: images/speakers/sai-durga-rithvik-oruganti-thumb.jpg
       speaker_link: speakers/sai-durga-rithvik-oruganti/
