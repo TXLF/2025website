@@ -591,11 +591,11 @@ tab:
       end_hour: 15
       end_minute: 45
 
-    - speaker: Paul Novarese
-      speaker_image: images/speakers/paul-novarese-thumb.jpg
-      speaker_link: speakers/paul-novarese/
-      talk_link: talks/among-us-theyre-in-the-open-source-supply-chain/
-      subject: "Among Us: They're in the Open Source Supply Chain"
+    - speaker: Matt Moen
+      speaker_image: images/speakers/matt-moen-thumb.jpg
+      speaker_link: speakers/matt-moen/
+      talk_link: talks/encrypting-your-infrastructure-without-getting-fired/
+      subject: "Encrypting Your Infrastructure Without Getting Fired"
       venue: Bevo
       time: "3:00 PM - 3:45 PM"
       column: 7
