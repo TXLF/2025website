@@ -207,6 +207,19 @@ tab:
       end_hour: 14
       end_minute: 15
 
+    - speaker: David Duncan
+      speaker_image: images/speakers/david-duncan-thumb.jpg
+      speaker_link: speakers/david-duncan/
+      talk_link: talks/the-great-texas-agent-off-ramalama-podman-and-diy-ai-bots/
+      subject: "The Great Texas Agent-Off: RamaLama, Podman, and DIY AI Bots!"
+      venue: Balcones
+      time: "1:30 PM - 4:30 PM"
+      column: 5
+      start_hour: 13
+      start_minute: 30
+      end_hour: 16
+      end_minute: 30
+
     - speaker: Alex Juarez
       speaker_image: images/speakers/alex-juarez-thumb.jpg
       speaker_link: speakers/alex-juarez/
