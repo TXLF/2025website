@@ -87,9 +87,9 @@ tab:
       speaker_link: speakers/matthew-boehm/
       talk_link: talks/valkey-101-keep-calm-and-fork-on/
       subject: "Valkey 101: Keep Calm, and Fork On (Sponsor: Percona)"
-      venue: Balcones
+      venue: Lil Tex
       time: "9:00 AM - 10:30 AM"
-      column: 5
+      column: 4
       start_hour: 9
       start_minute: 0
       end_hour: 10
@@ -148,9 +148,9 @@ tab:
       speaker_link: speakers/matthew-boehm/
       talk_link: talks/false-positives-real-gains-valkeys-probabilistic-filters/
       subject: "False Positives, Real Gains: Valkey's Probabilistic Filters (Sponsor: Percona)"
-      venue: Balcones
+      venue: Lil Tex
       time: "10:30 AM - 12:00 PM"
-      column: 5
+      column: 4
       start_hour: 10
       start_minute: 30
       end_hour: 12

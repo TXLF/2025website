@@ -5,7 +5,7 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
 when: Friday, October 3rd, 9:00 AM - 10:30 AM
-where: Balcones
+where: Lil Tex
 speakers:
   - name: Matthew Boehm
     image: images/speakers/matthew-boehm.jpg
