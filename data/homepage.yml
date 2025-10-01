@@ -95,6 +95,19 @@ tab:
       end_hour: 10
       end_minute: 30
 
+    - speaker: Aleksey Tsalolikhin
+      speaker_image: images/speakers/aleksey-tsalolikhin-thumb.jpg
+      speaker_link: speakers/aleksey-tsalolikhin/
+      talk_link: talks/power-editing-with-vi-basics/
+      subject: "Power Editing with Vi: Basics"
+      venue: Balcones
+      time: "9:00 AM - 12:00 PM"
+      column: 5
+      start_hour: 9
+      start_minute: 0
+      end_hour: 12
+      end_minute: 0
+
     - speaker: Jon Roberts
       speaker_image: images/speakers/jon-roberts-thumb.jpg
       speaker_link: speakers/jon-roberts/
