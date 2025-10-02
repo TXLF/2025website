@@ -243,6 +243,8 @@ charts of places to go." _[points behind him]_ "You won't be showing
 this, but those are the ones I've spoken at, and Texas Linux Fest is
 always one I submit to."
 
+![JJ points out his lanyards](JJ-pointing-at-lanyards.jpg)
+
 __Nate__: "JJ's pointing at a whole bunch of lanyards over his
 houlder. Maybe we'll make that the interview screenshot, if that's
 okay with you."
