@@ -1056,6 +1056,10 @@ sponsors:
         logo: "images/sponsors/kube-careers.png"
         link: "https://kube.careers/"
 
+      - name: "Tiny Hacker House"
+        logo: "images/sponsors/tiny-hacker-house.png"
+        link: "https://tinyhackerhouse.org/"
+
 ############### FAQ ##################
 faq:
   title: "Frequently Asked _Questions_"
