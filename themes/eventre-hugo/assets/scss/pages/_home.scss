@@ -910,8 +910,36 @@
 .pricing{
 	.pricing-item{
 		border: 1px solid $border-color;
+		position: relative;
 		@include desktop-sm {
 			margin-bottom: 30px;
+		}
+		&.sold-out {
+			opacity: 0.7;
+		}
+		.sold-out-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 10;
+			pointer-events: none;
+			.sold-out-badge {
+				background: #dc3545;
+				color: $light;
+				font-size: 2.5rem;
+				font-weight: bold;
+				padding: 20px 40px;
+				transform: rotate(-15deg);
+				box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+				border: 3px solid darken(#dc3545, 10%);
+				text-transform: uppercase;
+				letter-spacing: 3px;
+			}
 		}
 		.pricing-heading{
 			padding: 20px 40px 30px 40px;
