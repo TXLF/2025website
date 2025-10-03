@@ -16,7 +16,12 @@
       {{ range .pricing_table }}
       <div class="col-lg-6 col-md-8">
         <!-- Pricing Item -->
-        <div class="pricing-item">
+        <div class="pricing-item{{ if .sold_out }} sold-out{{ end }}">
+          {{ if .sold_out }}
+          <div class="sold-out-overlay">
+            <span class="sold-out-badge">SOLD OUT</span>
+          </div>
+          {{ end }}
           <div class="pricing-heading">
             <!-- Title -->
             <div class="title">
@@ -39,7 +44,7 @@
             </ul>
           </div>
           <div class="pricing-footer text-center">
-            <a href="{{ .button_link | absURL }}" class="btn btn-transparent-md">Buy a ticket</a>
+            <a href="{{ .button_link | absURL }}" class="btn btn-transparent-md{{ if .sold_out }} disabled{{ end }}">Buy a ticket</a>
           </div>
         </div>
       </div>

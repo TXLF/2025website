@@ -841,6 +841,7 @@ pricing:
     price : "100.00"
     price_per : "Person"
     button_link : "https://register.linuxfests.org/reg6/"
+    sold_out : true
     features:
     - "Full access to the event"
     - "Helps make TXLF possible!"
@@ -850,6 +851,7 @@ pricing:
     price : "75.00"
     price_per : "Person"
     button_link : "https://register.linuxfests.org/reg6/"
+    sold_out : false
     features:
     - "Full access to the event"
     - "Allows students, hobbyists, retired, unemployed, etc. to access this community resource. If you're attending professionally, please consider the 'Supporter' level."
