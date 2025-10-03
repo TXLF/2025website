@@ -4,7 +4,7 @@ sponsor: Red Hat
 description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
-when: Friday, October 3rd, 2:30 PM - 3:15 PM
+when: Friday, October 3rd, 2:00 PM - 3:00 PM
 where: Lil Tex
 speakers:
   - name: Raul Leite

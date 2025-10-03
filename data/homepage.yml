@@ -207,19 +207,6 @@ tab:
 
     ## 1:30 PM
 
-    - speaker: Greg Richardson
-      speaker_image: images/speakers/greg-richardson-thumb.jpg
-      speaker_link: speakers/greg-richardson/
-      talk_link: talks/taming-your-rhel-environment-practical-management-with-satellite-and-ansible/
-      subject: "Taming Your RHEL Environment: Practical Management with Satellite and Ansible (Sponsor: Red Hat)"
-      venue: Lil Tex
-      time: "1:30 PM - 2:15 PM"
-      column: 4
-      start_hour: 13
-      start_minute: 30
-      end_hour: 14
-      end_minute: 15
-
     - speaker: David Duncan
       speaker_image: images/speakers/david-duncan-thumb.jpg
       speaker_link: speakers/david-duncan/
@@ -280,12 +267,12 @@ tab:
       talk_link: talks/building-ai-workloads-locally-with-podman/
       subject: "Building AI Workloads locally with Podman (Sponsor: Red Hat)"
       venue: Lil Tex
-      time: "2:30 PM - 3:15 PM"
+      time: "2:00 PM - 3:00 PM"
       column: 4
       start_hour: 14
-      start_minute: 30
+      start_minute: 0
       end_hour: 15
-      end_minute: 15
+      end_minute: 0
 
     ## 3:00 PM
 
@@ -308,12 +295,12 @@ tab:
       talk_link: talks/explore-deploying-and-managing-large-language-models-with-red-hat-enterprise-linux-10-and-red-hat-ai-serving/
       subject: "Explore Deploying and Managing Large Language Models with Red Hat Enterprise Linux 10 and Red Hat AI Serving (Sponsor: Red Hat)"
       venue: Lil Tex
-      time: "3:30 PM - 4:15 PM"
+      time: "3:30 PM - 4:30 PM"
       column: 4
       start_hour: 15
       start_minute: 30
       end_hour: 16
-      end_minute: 15
+      end_minute: 30
 
     - speaker: Josh Villarreal
       speaker_image: images/speakers/josh-villarreal-thumb.jpg

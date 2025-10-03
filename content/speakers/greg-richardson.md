@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Senior Solutions Architect
 image: images/speakers/greg-richardson.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -13,7 +12,6 @@ social:
 talks:
   - title: "Taming Your RHEL Environment: Practical Management with Satellite and Ansible"
     link: talks/taming-your-rhel-environment-practical-management-with-satellite-and-ansible/
-    current: true
 ---
 
 I'm a Solutions Architect at Red Hat, where I help organizations design and
