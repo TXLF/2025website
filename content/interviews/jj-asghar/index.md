@@ -47,7 +47,7 @@ leveraged my skill set and my connections to basically get IBM to
 tables that it normally couldn't get to. 'JJ, go be yourself and make
 IBM look good' — that's basically what I was told to do.
 
-Over time, um my job has morphed from that. I own our github.com,
+Over time, my job has morphed from that. I own our github.com,
 basically. It's handwavy, not official, but for all open source when
 IBM open sources something, I am one of the gatekeepers before it
 leaves, if you will. Basically I'm the funnel."
@@ -116,8 +116,8 @@ RAG of specific health issues that you are looking for. I actually
 have a medical school in the Bay Area that has put this in front of
 some of their students. Of course, it's a first pass and it's not
 great by any standard, but it's enough for them to realize 'oh wow; I
-can actually work with this and I can get the um engagement that I'm
-looking for."
+can actually work with this and I can get the engagement that I'm
+looking for.'"
 
 __Nate__: "So what led you down this path? What was the inciting incident
 to do it? Because you're not a doctor, right?"
@@ -138,7 +138,7 @@ the point where I was able to actually bring in students."
 __Nate__: "Another thing that I noticed in your abstract was you mention
 the ethical perspective; building trust and stuff like that. I know,
 and you probably know too, there's a lot of people in the broader
-open-source world who are who feel very irritated at the AI hype these
+open-source world who feel very irritated at the AI hype these
 days. And a lot of that — I think — is because they perceive this
 ethical disconnect where, for example, companies are scraping open
 source code and then _not sharing_ what they have derived from
@@ -193,8 +193,8 @@ Linux Fest is that it's a yearly summer camp for me, in a lot of ways,
 where I get to see people I don't get to normally see on the road or
 whatever.
 
-I do love these style events more than the big flashy conferences that
-I have the privilege of going to because the people who show up at
+I do love these-style events more than the big flashy conferences that
+I have the privilege of going to, because the people who show up at
 these are so much more genuine and they actually are passionate about
 'the thing' and I can sit there and spend 45 minutes talking about my
 Vim bindings.
@@ -210,7 +210,7 @@ visit you, or what?"
 __JJ__: "It is a weird paradigm shift. I've done this a handful of times
 throughout my career. And I'll tell you, as I've grown older ... I
 have two daughters. I'm a girl dad. And my girls have obviously grown
-as I've done this career, I guess. And it's interesting to see um as
+as I've done this career, I guess. And it's interesting to see, as
 they've gotten older, the dad feelings of me wanting to come home
 early is actually much stronger.
 
@@ -226,7 +226,7 @@ I help coach her, right? I need to be there so I show that my priority
 is my daughter."
 
 __Nate__: "That is a really good point. I don't think I've heard anyone
-articulate that before about the value of a local community event. Or,
+articulate that before, about the value of a local community event. Or,
 maybe, we focus on 'people who can't travel around the country' just for
 budgetary or time reasons. But yeah, you get your keep your life
 rolling too."
