@@ -5,7 +5,7 @@ host:
 int:
   image: HS.jpg
   name: Helena Spease
-date: 2025-10-3
+date: 2025-10-03
 description : "Texas Linux Fest 2025 - Interview: Helena Spease x Nathan Willis"
 draft : false
 layout: "interview"
