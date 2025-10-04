@@ -329,3 +329,8 @@ link = "https://github.com/txlf"
 title = "linkedin"
 icon = "fa-brands fa-linkedin"
 link = "https://www.linkedin.com/company/texas-linux-fest/"
+
+[[params.social]]
+title = "youtube"
+icon = "fa-brands fa-youtube"
+link = "https://www.youtube.com/@texaslinuxfest3002"

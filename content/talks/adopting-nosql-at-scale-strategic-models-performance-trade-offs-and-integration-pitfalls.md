@@ -38,3 +38,5 @@ with concrete evaluation frameworks and deployment strategies for NoSQL
 technologies, helping them modernize legacy stacks, design resilient data 
 pipelines, and drive alignment between database architecture and evolving 
 business demands.
+
+<https://www.youtube.com/watch?v=S8iAZnH4Vo0>
