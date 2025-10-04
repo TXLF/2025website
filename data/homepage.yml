@@ -686,11 +686,11 @@ tab:
       end_hour: 17
       end_minute: 45
 
-    - speaker: Sudheer Obbu
-      speaker_image: images/speakers/sudheer-obbu-thumb.jpg
-      speaker_link: speakers/sudheer-obbu/
-      talk_link: talks/securing-ai-workloads-with-zero-trust-building-resilient-cloud-native-systems-on-linux/
-      subject: "Securing AI Workloads with Zero Trust: Building Resilient Cloud-Native Systems on Linux"
+    - speaker: Jonthan Wright
+      speaker_image: images/speakers/jonathan-wright-thumb.jpg
+      speaker_link: speakers/jonathan-wright/
+      talk_link: talks/distributing-open-source-a-mirror-story/
+      subject: "Distributing Open Source: A Mirror Story"
       venue: Lil Tex
       time: "5:00 PM - 5:45 PM"
       column: 4

@@ -4,7 +4,6 @@ description: Texas Linux Fest
 page_header_bg: images/background/page-title-bg.jpg
 designation: Vice President, Senior Lead Software Engineer
 image: images/speakers/sudheer-obbu.jpg
-current: true
 
 social:
   - icon: fa-brands fa-linkedin
@@ -13,7 +12,6 @@ social:
 talks:
   - title: "Securing AI Workloads with Zero Trust: Building Resilient Cloud-Native Systems on Linux"
     link: talks/securing-ai-workloads-with-zero-trust-building-resilient-cloud-native-systems-on-linux/
-    current: true
 ---
 
 Sudheer Obbu is a seasoned DevSecOps, Cloud, and Platform Engineering Services
