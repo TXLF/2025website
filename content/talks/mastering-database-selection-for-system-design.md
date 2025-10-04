@@ -23,3 +23,5 @@ and CAP theorem trade-offs—introduce benefits and trade-offs, revealing why
 each database suits certain use cases but not others.  You'll gain a practical
 framework to evaluate any open-source database for Linux systems, enabling
 confident, informed selections.
+
+<https://www.youtube.com/watch?v=7bd0mvRDJMM>

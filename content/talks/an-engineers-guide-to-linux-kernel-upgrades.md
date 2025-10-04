@@ -37,3 +37,4 @@ the stability of your systems by not releasing the kernel regularly.  In the
 end we describe how kernel releases are implemented in our company and propose
 possible approaches to deploy kernel upgrades regularly with minimal risk.
 
+<https://www.youtube.com/watch?v=fhOEYO9LsxE>
