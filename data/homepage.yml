@@ -604,19 +604,6 @@ tab:
       end_hour: 15
       end_minute: 45
 
-    - speaker: Mayur Bhandari
-      speaker_image: images/speakers/mayur-bhandari-thumb.jpg
-      speaker_link: speakers/mayur-bhandari/
-      talk_link: talks/building-smart-cities-with-open-source/
-      subject: "Building Smart Cities with Open Source: How Linux-Based Distributed Systems Are Transforming Urban Infrastructure"
-      venue: Stadium
-      time: "3:00 PM - 3:45 PM"
-      column: 6
-      start_hour: 15
-      start_minute: 0
-      end_hour: 15
-      end_minute: 45
-
     - speaker: Matt Moen
       speaker_image: images/speakers/matt-moen-thumb.jpg
       speaker_link: speakers/matt-moen/
@@ -666,19 +653,6 @@ tab:
       venue: Balcones
       time: "4:00 PM - 4:45 PM"
       column: 5
-      start_hour: 16
-      start_minute: 0
-      end_hour: 16
-      end_minute: 45
-
-    - speaker: Hoang Dinh Nguyen
-      speaker_image: images/speakers/hoang-dinh-nguyen-thumb.jpg
-      speaker_link: speakers/hoang-dinh-nguyen/
-      talk_link: talks/kusion-and-internal-developer-platform-optimize-the-software-develement-process/
-      subject: "Kusion and Internal Developer Platform: Optimize the Software Development Process"
-      venue: Stadium
-      time: "4:00 PM - 4:45 PM"
-      column: 6
       start_hour: 16
       start_minute: 0
       end_hour: 16
