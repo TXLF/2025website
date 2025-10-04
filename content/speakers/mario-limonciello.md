@@ -15,8 +15,8 @@ social:
     link: https://x.com/superm1_mario
 
 talks:
-  - title: SteamOS™ on the Lenovo™ Go S
-    link: talks/steamos-on-the-lenovo-go-s/
+  - title: SteamOS™ on the Lenovo Legion™ Go S
+    link: talks/steamos-on-the-lenovo-legion-go-s/
     current: true
 ---
 
