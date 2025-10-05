@@ -33,3 +33,5 @@ you can apply to your own journey to improve the quality and consistency of
 your documentation.  You will not need technical skills to follow the scope of
 the talk but familiarity with concepts such as version control software
 workflows and pipelines can help you to appreciate some of the details.
+
+<https://www.youtube.com/watch?v=7VtYcntnE-o>
