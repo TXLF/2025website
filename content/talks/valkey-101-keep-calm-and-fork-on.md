@@ -13,6 +13,9 @@ speakers:
   - name: Alastair Turner
     image: images/speakers/alastair-turner.jpg
     link: speakers/alastair-turner/
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=-CP1lj79k6E
 ---
 
 Curious about Valkey?  Come learn what this open-source fork of Redis is all
@@ -21,5 +24,3 @@ needs.  We'll cover where Valkey came from, what's familiar, what's new in 8.X,
 and how to get started using it today.  Whether you're a Redis user, or just
 Valkey-curious, you'll walk away knowing how Valkey keeps your data fast, your
 ops simple, and your future open.
-
-<https://www.youtube.com/watch?v=-CP1lj79k6E>

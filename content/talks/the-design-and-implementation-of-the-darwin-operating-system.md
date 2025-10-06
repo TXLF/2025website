@@ -9,6 +9,9 @@ speakers:
   - name:  "Kory Heard"
     image: "images/speakers/kory-heard.jpg"
     link:  "speakers/kory-heard/"
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=AmdXnr0rjlI
 ---
 
 Darwin is the second most widely deployed UNIX in the world, quietly powering 
@@ -36,5 +39,3 @@ for Linux users, OS developers, and reverse engineers who want to understand the
 
 Come see how Darwin and Linux approach the same problems differently—and why 
 understanding both makes you a better systems thinker.
-
-<https://www.youtube.com/watch?v=AmdXnr0rjlI>

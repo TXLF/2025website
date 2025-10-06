@@ -9,6 +9,9 @@ speakers:
   - name: Carl Perry
     image: images/speakers/carl-perry.jpg
     link: speakers/carl-perry/
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=zeIxOzCRpnE
 ---
 
 Readily available RISC-V Single Board Computers are here!  But much like the
@@ -27,5 +30,3 @@ pitfalls to be aware of.  We're going to focus on the Banana PI BPI-F3, Orange
 PI RV2, MilkV Jupiter, MilkV Megrez, SiFive HiFive P550 Premier, and StarFive
 VisionFive 2 boards.  It's going to be a lot of fun, and I hope to see you
 there.
-
-<https://www.youtube.com/watch?v=zeIxOzCRpnE>
