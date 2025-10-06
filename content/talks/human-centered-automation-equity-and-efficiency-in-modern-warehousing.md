@@ -33,3 +33,5 @@ within 120 days.
 Join this talk to see how inclusive design, open innovation, and thoughtful 
 policy can guide the next wave of warehouse automation toward sustainable, 
 human‑centered growth.
+
+<https://www.youtube.com/watch?v=lz3ricc47sg>

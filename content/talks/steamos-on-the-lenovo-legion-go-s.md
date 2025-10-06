@@ -5,6 +5,9 @@ page_header_bg: images/background/page-title-bg.jpg
 format: Presentation
 when: Saturday, October 4th, 2:00 PM - 2:45 PM
 where: Balcones
+resources:
+  - name: "Slides"
+    link: "slides/steamos-on-lenovo-legion-go-s.pdf"
 speakers:
   - name: Mario Limonciello
     image: images/speakers/mario-limonciello.jpg

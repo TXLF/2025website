@@ -28,3 +28,5 @@ conditionals, tags, and selective runs.  You'll learn about roles, Ansible
 Galaxy, the community repository of Ansible modules, and Ansible vault for
 secret protection.  You'll learn about common gotchas and troubleshooting, then
 wrap up with resources for you to reference after the talk.
+
+<https://www.youtube.com/watch?v=QHdubLTY-Nw>
