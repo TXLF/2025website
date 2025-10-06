@@ -26,3 +26,5 @@ Expect a live demo, lessons learned from real-world adoption, and a practical
 look at how Beyla fits into modern Linux-based observability stacks.  If you're
 ready to "auto-instrument all the things" and reduce friction between
 developers and observability teams, this session is for you.
+
+<https://www.youtube.com/watch?v=I6Uxz9TldFM>

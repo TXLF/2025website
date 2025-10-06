@@ -30,3 +30,5 @@ Ollama and Django, but more importantly, the decision-making framework that led
 to this use case.  You'll learn how to identify AI opportunities that build
 trust rather than erode it, implement guardrails that matter, and create value
 propositions that resonate with both technical teams and stakeholders.
+
+<https://www.youtube.com/watch?v=osr5D6HzxI8>

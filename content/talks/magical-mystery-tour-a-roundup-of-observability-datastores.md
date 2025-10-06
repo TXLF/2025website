@@ -29,3 +29,5 @@ the unique requirements of their systems.  Whether you're building an
 observability stack from scratch or looking to optimize an existing setup, this
 tour of the observability datastore landscape will leave you better equipped to
 navigate the options.
+
+<https://www.youtube.com/watch?v=fhCRBe6UChQ>

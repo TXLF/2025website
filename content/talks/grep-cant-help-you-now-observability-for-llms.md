@@ -28,3 +28,5 @@ knowledge will be helpful, I want to make this accessible on all levels.  I
 will explain the core concepts of observability of LLMs throughout the session.
 Whether you are debugging LLMs or scaling AI infrastructure, this talk will
 help you move from reactive grepping to proactive observability.
+
+<https://www.youtube.com/watch?v=SxGFXY9yT1Y>

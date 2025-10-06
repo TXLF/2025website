@@ -20,3 +20,5 @@ their pitfalls, and the pros and cons of Tang and Clevis along with a
 high-level investigation of its more advanced configurations, alternatives
 involving TPM2 and if the stars align properly, a live demo with physical
 props.
+
+<https://www.youtube.com/watch?v=xEU-HgxocLk>

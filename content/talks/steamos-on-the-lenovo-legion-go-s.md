@@ -33,3 +33,5 @@ development in nearly every layer of the stack:
 
 I'll talk about the various changes that had to be made for each layer, and
 more importantly why they had to be made.
+
+<https://www.youtube.com/watch?v=32dlmaCpVVg>

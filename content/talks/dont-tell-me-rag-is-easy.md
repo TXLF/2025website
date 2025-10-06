@@ -24,3 +24,5 @@ Come on a RAG journey with me as I recount some of the roadblocks my team faced
 as we built a product with RAG as a core component. Learn about the available
 technologies, how to build out a RAG stack, and how to avoid bringing human
 complexity into an already complex technical system.
+
+<https://www.youtube.com/watch?v=eySjggnupmM>
