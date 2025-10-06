@@ -9,6 +9,10 @@ speakers:
   - name: Swetha Garaga
     image: images/speakers/swetha-garaga.jpg
     link: speakers/swetha-garaga/
+
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=lz3ricc47sg
 ---
 Warehouse automation is reshaping global supply chains, delivering striking 
 gains in efficiency—processing speeds up by 167%, order accuracy up 35%, and 
@@ -33,5 +37,3 @@ within 120 days.
 Join this talk to see how inclusive design, open innovation, and thoughtful 
 policy can guide the next wave of warehouse automation toward sustainable, 
 human‑centered growth.
-
-<https://www.youtube.com/watch?v=lz3ricc47sg>

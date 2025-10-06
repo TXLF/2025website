@@ -10,6 +10,10 @@ speakers:
   - name: "Bramhanand Lingala"
     image: "images/speakers/bramhanand-lingala.jpg"
     link: "speakers/bramhanand-lingala/"
+
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=S8iAZnH4Vo0
 ---
 As enterprises increasingly embrace real-time, high-volume, and schema-flexible 
 workloads, the limitations of traditional relational databases become more 
@@ -38,5 +42,3 @@ with concrete evaluation frameworks and deployment strategies for NoSQL
 technologies, helping them modernize legacy stacks, design resilient data 
 pipelines, and drive alignment between database architecture and evolving 
 business demands.
-
-<https://www.youtube.com/watch?v=S8iAZnH4Vo0>

@@ -9,6 +9,10 @@ speakers:
   - name: Ignat Korchagin
     image: images/speakers/ignat-korchagin.jpg
     link: speakers/ignat-korchagin/
+
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=fhOEYO9LsxE
 ---
 
 The Linux Kernel lies at the heart of many high profile services and
@@ -36,5 +40,3 @@ patterns around production kernel releases are wrong and how you actually risk
 the stability of your systems by not releasing the kernel regularly.  In the
 end we describe how kernel releases are implemented in our company and propose
 possible approaches to deploy kernel upgrades regularly with minimal risk.
-
-<https://www.youtube.com/watch?v=fhOEYO9LsxE>

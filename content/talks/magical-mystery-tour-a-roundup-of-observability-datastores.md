@@ -9,6 +9,9 @@ speakers:
   - name: Joshua Lee
     image: images/speakers/joshua-lee.jpg
     link: speakers/joshua-lee/
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=fhCRBe6UChQ
 ---
 
 From plain-old Postgres to the LGTM stack, ELK, Cassandra, and ClickHouse, the
@@ -29,5 +32,3 @@ the unique requirements of their systems.  Whether you're building an
 observability stack from scratch or looking to optimize an existing setup, this
 tour of the observability datastore landscape will leave you better equipped to
 navigate the options.
-
-<https://www.youtube.com/watch?v=fhCRBe6UChQ>

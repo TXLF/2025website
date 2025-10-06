@@ -9,6 +9,10 @@ speakers:
   - name: Sai Durga Rithvik Oruganti
     image: images/speakers/sai-durga-rithvik-oruganti.jpg
     link: speakers/sai-durga-rithvik-oruganti/
+
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=l4CCon6nHnw
 ---
 
 High-Performance Computing can seem intimidating as it is full of buzzwords
@@ -25,5 +29,3 @@ HPC and the lessons I've learned along the way.  Whether you're a student, a
 new hire, or simply curious about what it's like to work behind the scenes in
 HPC, this talk offers valuable perspectives and stories from someone who's been
 in your shoes.
-
-<https://www.youtube.com/watch?v=l4CCon6nHnw>
