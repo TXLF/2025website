@@ -9,6 +9,9 @@ speakers:
   - name: Cody Lee Cochran
     image: images/speakers/cody-lee-cochran.jpg
     link: speakers/cody-lee-cochran/
+resources:
+  - name: Slides
+    link: https://pipelines.codrcodz.io
 ---
 
 Why Pipelines?

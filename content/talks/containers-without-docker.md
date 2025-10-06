@@ -9,6 +9,9 @@ speakers:
   - name: Fred Lawler
     image: images/speakers/fred-lawler.jpg
     link: speakers/fred-lawler/
+resources:
+  - name: Slides
+    link: slides/containers-without-docker.pdf
 ---
 
 Cloudflare heavily uses containerization for managing our global network and

@@ -10,6 +10,8 @@ speakers:
     image: images/speakers/thomas-cameron.jpg
     link: speakers/thomas-cameron/
 resources:
+  - name: Slides
+    link: https://people.redhat.com/tcameron/TXLF-2025/TXLF-2025_Ansible.pdf
   - name: Recording
     link: https://www.youtube.com/watch?v=QHdubLTY-Nw
 ---

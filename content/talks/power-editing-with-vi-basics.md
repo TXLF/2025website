@@ -9,6 +9,9 @@ speakers:
   - name: Aleksey Tsalolikhin
     image: images/speakers/aleksey-tsalolikhin.jpg
     link: speakers/aleksey-tsalolikhin/
+resources:
+  - name: Slides
+    link: http://vitutorial.org
 ---
 
 This hands-on tutorial will take you from Vi beginner or intermediate user to a
