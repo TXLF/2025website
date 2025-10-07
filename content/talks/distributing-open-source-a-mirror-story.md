@@ -9,6 +9,9 @@ speakers:
   - name: Jonathan Wright
     image: images/speakers/jonathan-wright.jpg
     link: speakers/jonathan-wright/
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=taQ9uFIsgWI
 ---
 
 Community mirroring is a cornerstone of successful open-source projects,

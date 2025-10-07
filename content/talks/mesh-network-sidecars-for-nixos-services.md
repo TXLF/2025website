@@ -9,6 +9,9 @@ speakers:
   - name: Wes Payne
     image: images/speakers/wes-payne.jpg
     link: speakers/wes-payne/
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=q_rjuD_TC_E
 ---
 
 Inspired by the popular container sidecar pattern, this talk demonstrates a

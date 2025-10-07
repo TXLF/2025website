@@ -9,6 +9,9 @@ speakers:
   - name: Carl Thompson
     image: images/speakers/carl-thompson.jpg
     link: speakers/carl-thompson/
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=r7nbHKGMXMs
 ---
 
 Demystifying SELinux aims to break down the perceived complexity of SELinux and

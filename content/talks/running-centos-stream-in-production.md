@@ -9,6 +9,9 @@ speakers:
   - name:  "Robert Callicotte"
     image: "images/speakers/robert-callicotte.jpg"
     link:  "speakers/robert-callicotte/"
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=jln1FIomiWg
 ---
 
 We've run 3,000+ CentOS Stream systems in production since 2020 with consistent

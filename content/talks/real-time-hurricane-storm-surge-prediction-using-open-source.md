@@ -9,6 +9,9 @@ speakers:
   - name: Brett Estrade
     image: images/speakers/brett-estrade.jpg
     link: speakers/brett-estrade/
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=CHnIEErXJWY
 ---
 
 The **ADCIRC Surge Guidance System (ASGS)**, first formally discussed in 2008,

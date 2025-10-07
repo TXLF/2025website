@@ -9,6 +9,9 @@ speakers:
   - name: Willard Nilges
     image: images/speakers/willard-nilges.jpg
     link: speakers/willard-nilges/
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=17hTXhArfXY
 ---
 
 In the last decade, observability has become a critically important concept

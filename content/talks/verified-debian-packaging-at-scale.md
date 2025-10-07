@@ -12,6 +12,9 @@ speakers:
   - name: Fred Lawler
     image: images/speakers/fred-lawler.jpg
     link: speakers/fred-lawler/
+resources:
+  - name: Recording
+    link: https://www.youtube.com/watch?v=CRtnTrJ2FU4
 ---
 
 Cloudflare's global network relies on Debian Linux machines across 330+ cities.
