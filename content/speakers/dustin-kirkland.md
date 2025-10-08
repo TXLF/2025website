@@ -17,6 +17,10 @@ social:
   - icon: fa-brands fa-x-twitter
     link: https://x.com/dustinkirkland
 
+talks:
+  - title: Keynote
+    link: talks/keynote/
+    current: true
 ---
 
 Dustin Kirkland is the SVP of Engineering at Chainguard, the safe source for
