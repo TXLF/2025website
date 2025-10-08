@@ -334,6 +334,7 @@ tab:
     - speaker: Dustin Kirkland
       speaker_image: images/speakers/dustin-kirkland-thumb.jpg
       speaker_link: speakers/dustin-kirkland/
+      talk_link: talks/keynote/
       subject: TXLF Keynote
       venue: Big Tex
       time: "9:00 AM - 9:45 AM"
