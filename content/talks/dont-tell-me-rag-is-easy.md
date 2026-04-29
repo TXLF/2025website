@@ -10,6 +10,8 @@ speakers:
     image: images/speakers/major-hayden.png
     link: speakers/major-hayden/
 resources:
+  - name: Slides
+    link: https://docs.google.com/presentation/d/1EfjRGq8dZVua4Y-wfp9o-wTUKA1FUWzjldTuGqhC8Nk/edit?usp=sharing
   - name: Recording
     link: https://www.youtube.com/watch?v=eySjggnupmM
 ---

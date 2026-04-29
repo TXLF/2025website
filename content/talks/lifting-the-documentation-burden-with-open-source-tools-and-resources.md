@@ -10,6 +10,8 @@ speakers:
     image: images/speakers/michael-troutman.jpg
     link: speakers/michael-troutman/
 resources:
+  - name: Slides
+    link: slides/lifting-the-documentation-burden-with-open-source-tools-and-resources.pdf
   - name: Recording
     link: https://www.youtube.com/watch?v=7VtYcntnE-o
 ---
